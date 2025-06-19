@@ -1,5 +1,4 @@
-// betredi115
-
+// betredi115.com
 
 (function () {
   let randomGames = null;
