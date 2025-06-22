@@ -2349,24 +2349,23 @@
           $counter.length &&
           !$counter.hasClass("customized")
         ) {
-          $counter
-            .addClass("customized")
-            .css({
-              position: "absolute",
-              top: "6px",
-              right: "6px",
-              backgroundColor: "red",
-              color: "white",
-              borderRadius: "50%",
-              width: "20px",
-              height: "20px",
-              fontSize: "12px",
-              fontWeight: "bold",
-              textAlign: "center",
-              lineHeight: "20px",
-              zIndex: 10,
-            })
-            .text("+1");
+          $counter.addClass("customized").text("+1").css({
+            width: "20px",
+            height: "20px",
+            backgroundColor: "red",
+            color: "white",
+            fontWeight: "bold",
+            fontSize: "12px",
+            lineHeight: "20px",
+            textAlign: "center",
+            overflow: "visible",
+            padding: "0",
+            border: "none",
+            borderRadius: "50%",
+            top: "0",
+            right: "0",
+            zIndex: "9999",
+          });
         }
       });
 
