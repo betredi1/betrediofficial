@@ -2189,6 +2189,7 @@
 
       insertCustomSidebarLink();
       customizeBonusButton();
+      customizeNotificationCounter();
       injectProvidersMarquee();
       // is_mobile && mobileBoxes();
 
@@ -2329,6 +2330,43 @@
               }
             }
           });
+        }
+      });
+
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true,
+      });
+    }
+
+    function customizeNotificationCounter() {
+      const observer = new MutationObserver(() => {
+        const $notifBtn = $("#dropdownNotifications");
+        const $counter = $notifBtn.find(".notification-counter");
+
+        if (
+          $notifBtn.length &&
+          $counter.length &&
+          !$counter.hasClass("customized")
+        ) {
+          $counter
+            .addClass("customized")
+            .css({
+              position: "absolute",
+              top: "6px",
+              right: "6px",
+              backgroundColor: "red",
+              color: "white",
+              borderRadius: "50%",
+              width: "20px",
+              height: "20px",
+              fontSize: "12px",
+              fontWeight: "bold",
+              textAlign: "center",
+              lineHeight: "20px",
+              zIndex: 10,
+            })
+            .text("+1");
         }
       });
 
