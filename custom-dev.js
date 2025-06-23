@@ -2411,9 +2411,9 @@
           $counter.length &&
           !$counter.hasClass("customized")
         ) {
-          $counter.addClass("customized").text("+1").css({
-            width: "20px",
-            height: "20px",
+          $counter.addClass("customized").text("1").css({
+            width: "16px",
+            height: "16px",
             backgroundColor: "red",
             color: "white",
             fontWeight: "bold",
@@ -2421,11 +2421,11 @@
             lineHeight: "20px",
             textAlign: "center",
             overflow: "visible",
-            padding: "0",
+            padding: "8px",
             border: "none",
             borderRadius: "50%",
-            top: "-4px",
-            right: "-4px",
+            top: "0px",
+            right: "0px",
             position: "absolute",
             zIndex: "9999",
           });
