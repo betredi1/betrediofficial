@@ -1769,7 +1769,7 @@
           <div class="swiper swiper-initialized swiper-horizontal myMiniGamesSwiper swiper-backface-hidden">
             <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
 
-              <div class="swiper-slide" data-swiper-slide-index="0" style="width: 339px; margin-right: 12px; background: none !important;">
+              <div class="swiper-slide" data-swiper-slide-index="0" style="margin-right: 12px; background: none !important;">
                 <a class="mini-game mini-game--carousel mini-game--no-layer" href="https://betredi115.com/${language}/casino/games/ebetlab-crash-originals" style="background: none !important;">
                   <span class="mini-game__img">
                     <img loading="lazy" src="https://betredi1.github.io/betrediofficial/images/mini-games-v2/crash.webp" alt="">
@@ -1777,7 +1777,7 @@
                 </a>
               </div>
   
-              <div class="swiper-slide" data-swiper-slide-index="1" style="width: 339px; margin-right: 12px; background: none !important;">
+              <div class="swiper-slide" data-swiper-slide-index="1" style="margin-right: 12px; background: none !important;">
                 <a class="mini-game mini-game--carousel mini-game--no-layer" href="https://betredi115.com/${language}/casino/games/ebetlab-dice-originals" style="background: none !important;">
                   <span class="mini-game__img">
                     <img loading="lazy" src="https://betredi1.github.io/betrediofficial/images/mini-games-v2/dice.webp" alt="">
@@ -1785,7 +1785,7 @@
                 </a>
               </div>
   
-              <div class="swiper-slide" data-swiper-slide-index="2" style="width: 339px; margin-right: 12px; background: none !important;">
+              <div class="swiper-slide" data-swiper-slide-index="2" style="margin-right: 12px; background: none !important;">
                 <a class="mini-game mini-game--carousel mini-game--no-layer" href="https://betredi115.com/${language}/casino/games/ebetlab-mines-originals" style="background: none !important;">
                   <span class="mini-game__img">
                     <img loading="lazy" src="https://betredi1.github.io/betrediofficial/images/mini-games-v2/mines.webp" alt="">
@@ -1793,7 +1793,7 @@
                 </a>
               </div>
   
-              <div class="swiper-slide" data-swiper-slide-index="3" style="width: 339px; margin-right: 12px; background: none !important;">
+              <div class="swiper-slide" data-swiper-slide-index="3" style="margin-right: 12px; background: none !important;">
                 <a class="mini-game mini-game--carousel mini-game--no-layer" href="https://betredi115.com/${language}/casino/games/ebetlab-plinko-originals" style="background: none !important;">
                   <span class="mini-game__img">
                     <img loading="lazy" src="https://betredi1.github.io/betrediofficial/images/mini-games-v2/plinko.webp" alt="">
@@ -1804,7 +1804,6 @@
             </div>
           </div>
         </div>
-  
       </div>
     </div>
   </div>
