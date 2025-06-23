@@ -2388,6 +2388,7 @@
         subtree: true,
       });
     }
+
     function insertCustomSidebarLink() {
       const observer = new MutationObserver(() => {
         const $sidebarLinks = document.querySelector(
