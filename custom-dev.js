@@ -2345,12 +2345,24 @@
         const $counter = $notifBtn.find(".notification-counter");
         const $svgIcon = $notifBtn.find("svg.svg-icon");
 
+        // ✅ SVG her zaman değiştirilsin
+        if ($svgIcon.length && !$notifBtn.hasClass("icon-replaced")) {
+          const $imgIcon = $("<img>", {
+            src: "https://betredi1.github.io/betrediofficial/images/header-icons/send.png",
+            width: 28,
+            height: 28,
+          });
+
+          $svgIcon.replaceWith($imgIcon);
+          $notifBtn.addClass("icon-replaced"); // tekrar değiştirilmesin diye
+        }
+
+        // 🔁 Bildirim varsa counter’ı düzenle
         if (
           $notifBtn.length &&
           $counter.length &&
           !$counter.hasClass("customized")
         ) {
-          // Replace counter appearance and content
           $counter.addClass("customized").text("+1").css({
             width: "20px",
             height: "20px",
@@ -2369,17 +2381,6 @@
             position: "absolute",
             zIndex: "9999",
           });
-
-          // Replace SVG with custom <img>
-          if ($svgIcon.length) {
-            const $imgIcon = $("<img>", {
-              src: "https://betredi1.github.io/betrediofficial/images/header-icons/send.png",
-              width: 28,
-              height: 28,
-            });
-
-            $svgIcon.replaceWith($imgIcon);
-          }
         }
       });
 
@@ -2388,6 +2389,8 @@
         subtree: true,
       });
     }
+
+    customizeNotificationCounter();
 
     function insertCustomSidebarLink() {
       const observer = new MutationObserver(() => {
