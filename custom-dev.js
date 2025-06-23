@@ -1522,7 +1522,7 @@
                   "url": "${location.origin}",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://betrediofficial.github.io/images/schema-logo/betredi_new_logo_112.png"
+                    "url": "https://betredi1.github.io/betrediofficial/images/schema-logo/betredi_new_logo_112.png"
                   },
                   "sameAs": [
                     "https://twitter.com/betredi",
@@ -1651,8 +1651,8 @@
               <a href="https://betredi115.com/${language}/casino/slots">
                 ${
                   isMobile()
-                    ? `<img src="https://betrediofficial.github.io/images/temp-sliders-mobile/${language}/ayinkazanci.png" class="slide-image" />`
-                    : `<img src="https://betrediofficial.github.io/images/temp-sliders/${language}/ayinkazanci.png" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/temp-sliders-mobile/${language}/ayinkazanci.png" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/temp-sliders/${language}/ayinkazanci.png" class="slide-image" />`
                 }
               </a>
             </div>
@@ -1660,8 +1660,8 @@
               <a href="#">
                 ${
                   isMobile()
-                    ? `<img src="https://betrediofficial.github.io/images/mobile-main-slider/${language}/cekimipaylas.png" class="slide-image" />`
-                    : `<img src="https://betrediofficial.github.io/images/slider/${language}/cekimipaylas.png" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/cekimipaylas.png" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/cekimipaylas.png" class="slide-image" />`
                 }
               </a>
             </div>
@@ -1669,8 +1669,8 @@
               <a href="https://betredi115.com/${language}/promotion/100-freespin-deneme-bonusu-tr">
                 ${
                   isMobile()
-                    ? `<img src="https://betrediofficial.github.io/images/mobile-main-slider/${language}/100freespin.webp" class="slide-image" />`
-                    : `<img src="https://betrediofficial.github.io/images/slider/${language}/100freespin.webp" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/100freespin.webp" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/100freespin.webp" class="slide-image" />`
                 }
               </a>
             </div>
@@ -1678,8 +1678,8 @@
               <a href="https://betredi115.com/${language}/promotion/50-slot-yatirim-bonusu-tr">
                 ${
                   isMobile()
-                    ? `<img src="https://betrediofficial.github.io/images/mobile-main-slider/${language}/50slot.webp" class="slide-image" />`
-                    : `<img src="https://betrediofficial.github.io/images/slider/${language}/50slot.webp" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/50slot.webp" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/50slot.webp" class="slide-image" />`
                 }
               </a>
             </div>
@@ -1687,8 +1687,8 @@
               <a href="https://betredi115.com/${language}/promotion/30-casino-discount-tr">
                 ${
                   isMobile()
-                    ? `<img src="https://betrediofficial.github.io/images/mobile-main-slider/${language}/30casino.webp" class="slide-image" />`
-                    : `<img src="https://betrediofficial.github.io/images/slider/${language}/30casino.webp" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/30casino.webp" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/30casino.webp" class="slide-image" />`
                 }
               </a>
             </div>
@@ -1696,8 +1696,8 @@
               <a href="https://betredi115.com/${language}/promotion/15-casino-yatirim-bonusu-tr">
                 ${
                   isMobile()
-                    ? `<img src="https://betrediofficial.github.io/images/mobile-main-slider/${language}/15casino.webp" class="slide-image" />`
-                    : `<img src="https://betrediofficial.github.io/images/slider/${language}/15casino.webp" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/15casino.webp" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/15casino.webp" class="slide-image" />`
                 }
               </a>
             </div>
@@ -1705,8 +1705,8 @@
               <a href="https://betredi115.com/${language}/promotion/15-spor-yatirim-bonusu-tr">
                 ${
                   isMobile()
-                    ? `<img src="https://betrediofficial.github.io/images/mobile-main-slider/${language}/15spor.webp" class="slide-image" />`
-                    : `<img src="https://betrediofficial.github.io/images/slider/${language}/15spor.webp" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/15spor.webp" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/15spor.webp" class="slide-image" />`
                 }
               </a>
             </div>
@@ -1772,7 +1772,7 @@
               <div class="swiper-slide" data-swiper-slide-index="0" style="width: 339px; margin-right: 12px; background: none !important;">
                 <a class="mini-game mini-game--carousel mini-game--no-layer" href="https://betredi115.com/${language}/casino/games/ebetlab-crash-originals" style="background: none !important;">
                   <span class="mini-game__img">
-                    <img loading="lazy" src="https://betrediofficial.github.io/images/mini-games-v2/crash.webp" alt="">
+                    <img loading="lazy" src="https://betredi1.github.io/betrediofficial/images/mini-games-v2/crash.webp" alt="">
                   </span>
                 </a>
               </div>
@@ -1780,7 +1780,7 @@
               <div class="swiper-slide" data-swiper-slide-index="1" style="width: 339px; margin-right: 12px; background: none !important;">
                 <a class="mini-game mini-game--carousel mini-game--no-layer" href="https://betredi115.com/${language}/casino/games/ebetlab-dice-originals" style="background: none !important;">
                   <span class="mini-game__img">
-                    <img loading="lazy" src="https://betrediofficial.github.io/images/mini-games-v2/dice.webp" alt="">
+                    <img loading="lazy" src="https://betredi1.github.io/betrediofficial/images/mini-games-v2/dice.webp" alt="">
                   </span>
                 </a>
               </div>
@@ -1788,7 +1788,7 @@
               <div class="swiper-slide" data-swiper-slide-index="2" style="width: 339px; margin-right: 12px; background: none !important;">
                 <a class="mini-game mini-game--carousel mini-game--no-layer" href="https://betredi115.com/${language}/casino/games/ebetlab-mines-originals" style="background: none !important;">
                   <span class="mini-game__img">
-                    <img loading="lazy" src="https://betrediofficial.github.io/images/mini-games-v2/mines.webp" alt="">
+                    <img loading="lazy" src="https://betredi1.github.io/betrediofficial/images/mini-games-v2/mines.webp" alt="">
                   </span>
                 </a>
               </div>
@@ -1796,7 +1796,7 @@
               <div class="swiper-slide" data-swiper-slide-index="3" style="width: 339px; margin-right: 12px; background: none !important;">
                 <a class="mini-game mini-game--carousel mini-game--no-layer" href="https://betredi115.com/${language}/casino/games/ebetlab-plinko-originals" style="background: none !important;">
                   <span class="mini-game__img">
-                    <img loading="lazy" src="https://betrediofficial.github.io/images/mini-games-v2/plinko.webp" alt="">
+                    <img loading="lazy" src="https://betredi1.github.io/betrediofficial/images/mini-games-v2/plinko.webp" alt="">
                   </span>
                 </a>
               </div>
@@ -1843,8 +1843,8 @@
           color: Number(oldRTP) > Number(newRTP) ? "#f82228" : "#008000",
           icon:
             Number(oldRTP) > Number(newRTP)
-              ? "https://betrediofficial.github.io/images/rtp/rtp_down.png"
-              : "https://betrediofficial.github.io/images/rtp/rtp_up.png",
+              ? "https://betredi1.github.io/betrediofficial/images/rtp/rtp_down.png"
+              : "https://betredi1.github.io/betrediofficial/images/rtp/rtp_up.png",
         };
       }
 
@@ -2214,7 +2214,7 @@
 
     function customizeSignupModal() {
       const imgUrl =
-        "https://betrediofficial.github.io/images/modal-banners/modal_story.webp";
+        "https://betredi1.github.io/betrediofficial/images/modal-banners/modal_story.webp";
 
       const observer = new MutationObserver(() => {
         const $modal = $("#signup-modal");
@@ -2252,7 +2252,7 @@
 
     function customizeSigninModal() {
       const imgUrl =
-        "https://betrediofficial.github.io/images/modal-banners/modal_story.webp";
+        "https://betredi1.github.io/betrediofficial/images/modal-banners/modal_story.webp";
 
       const observer = new MutationObserver(() => {
         const $modal = $("#signin-modal");
@@ -2316,7 +2316,7 @@
                 newButton.find("span").text("Talep Et");
 
                 const newIcon = $("<img>", {
-                  src: "https://betrediofficial.github.io/images/bonus-request/live_support.png",
+                  src: "https://betredi1.github.io/betrediofficial/images/bonus-request/live_support.png",
                   alt: "Live Support",
                 }).css({
                   width: "22px",
@@ -2343,12 +2343,14 @@
       const observer = new MutationObserver(() => {
         const $notifBtn = $("#dropdownNotifications");
         const $counter = $notifBtn.find(".notification-counter");
+        const $svgIcon = $notifBtn.find("svg.svg-icon");
 
         if (
           $notifBtn.length &&
           $counter.length &&
           !$counter.hasClass("customized")
         ) {
+          // Replace counter appearance and content
           $counter.addClass("customized").text("+1").css({
             width: "20px",
             height: "20px",
@@ -2362,10 +2364,22 @@
             padding: "0",
             border: "none",
             borderRadius: "50%",
-            top: "0",
-            right: "0",
+            top: "-4px",
+            right: "-4px",
+            position: "absolute",
             zIndex: "9999",
           });
+
+          // Replace SVG with custom <img>
+          if ($svgIcon.length) {
+            const $imgIcon = $("<img>", {
+              src: "https://betredi1.github.io/betrediofficial/images/header-icons/send.png",
+              width: 28,
+              height: 28,
+            });
+
+            $svgIcon.replaceWith($imgIcon);
+          }
         }
       });
 
@@ -2374,7 +2388,6 @@
         subtree: true,
       });
     }
-
     function insertCustomSidebarLink() {
       const observer = new MutationObserver(() => {
         const $sidebarLinks = document.querySelector(
@@ -2393,12 +2406,12 @@
 
           const newLinksHTML = isMobile()
             ? `
-            <a class="sidebar__link sidebar__link--casino" href="https://betredi115.com/${language}/casino/slots" style="background: url('https://betrediofficial.github.io/images/aside-links/mobile/${language}/casino.png') left center / cover no-repeat;"></a>
-            <a class="sidebar__link sidebar__link--casino" href="https://betredi115.com/${language}/live-casino" style="background: url('https://betrediofficial.github.io/images/aside-links/mobile/${language}/live_casino.png') left center / cover no-repeat;"></a>
+            <a class="sidebar__link sidebar__link--casino" href="https://betredi115.com/${language}/casino/slots" style="background: url('https://betredi1.github.io/betrediofficial/images/aside-links/mobile/${language}/casino.png') left center / cover no-repeat;"></a>
+            <a class="sidebar__link sidebar__link--casino" href="https://betredi115.com/${language}/live-casino" style="background: url('https://betredi1.github.io/betrediofficial/images/aside-links/mobile/${language}/live_casino.png') left center / cover no-repeat;"></a>
           `
             : `
-            <a class="sidebar__link sidebar__link--casino" href="https://betredi115.com/${language}/casino/slots" style="background: url('https://betrediofficial.github.io/images/aside-links/desktop/${language}/casino.png') left center / cover no-repeat;"></a>
-            <a class="sidebar__link sidebar__link--casino" href="https://betredi115.com/${language}/live-casino" style="background: url('https://betrediofficial.github.io/images/aside-links/desktop/${language}/live_casino.png') left center / cover no-repeat;"></a>
+            <a class="sidebar__link sidebar__link--casino" href="https://betredi115.com/${language}/casino/slots" style="background: url('https://betredi1.github.io/betrediofficial/images/aside-links/desktop/${language}/casino.png') left center / cover no-repeat;"></a>
+            <a class="sidebar__link sidebar__link--casino" href="https://betredi115.com/${language}/live-casino" style="background: url('https://betredi1.github.io/betrediofficial/images/aside-links/desktop/${language}/live_casino.png') left center / cover no-repeat;"></a>
           `;
 
           $sidebarLinks.insertAdjacentHTML("beforeend", newLinksHTML);
@@ -2411,12 +2424,12 @@
           customDiv.innerHTML = isMobile()
             ? `
             <a class="sidebar__link sidebar__link--casino w-100" href="https://betredi115.com/${language}/promotions"
-               style="height: 46px; background: url('https://betrediofficial.github.io/images/aside-links/mobile/${language}/promotions.png') center center / cover no-repeat;">
+               style="height: 46px; background: url('https://betredi1.github.io/betrediofficial/images/aside-links/mobile/${language}/promotions.png') center center / cover no-repeat;">
             </a>
           `
             : `
             <a class="sidebar__link sidebar__link--casino w-100" href="https://betredi115.com/${language}/promotions"
-               style="height: 46px; background: url('https://betrediofficial.github.io/images/aside-links/desktop/${language}/promotions.png') center center / cover no-repeat;">
+               style="height: 46px; background: url('https://betredi1.github.io/betrediofficial/images/aside-links/desktop/${language}/promotions.png') center center / cover no-repeat;">
             </a>
           `;
           $sidebarLinks.parentNode.insertBefore(
@@ -2432,8 +2445,8 @@
         if (bonusLink) {
           bonusLink.href = "/tr?modal=bonus-request";
           bonusLink.style.background = isMobile()
-            ? `url('https://betrediofficial.github.io/images/aside-links/mobile/${language}/bonus_request.png') left center / cover no-repeat`
-            : `url('https://betrediofficial.github.io/images/aside-links/desktop/${language}/bonus_request.png') left center / cover no-repeat`;
+            ? `url('https://betredi1.github.io/betrediofficial/images/aside-links/mobile/${language}/bonus_request.png') left center / cover no-repeat`
+            : `url('https://betredi1.github.io/betrediofficial/images/aside-links/desktop/${language}/bonus_request.png') left center / cover no-repeat`;
           bonusLink.className = "sidebar__link sidebar__link--casino w-100";
 
           const bonusText = bonusLink.querySelector("span");
@@ -3056,7 +3069,7 @@ ${
     //   left: 0;
     //   height: 100%;
     //   width: 100%;
-    //   background: url("https://betrediofficial.github.io/images/betredi_background.png") no-repeat center center;
+    //   background: url("https://betredi1.github.io/betrediofficial/images/betredi_background.png") no-repeat center center;
     //   background-size: cover;
     //   background-repeat: no-repeat;
     //   background-position: center;
@@ -3082,7 +3095,7 @@ ${
   <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.1); z-index: 10; pointer-events: none;"></div>
   <a href="casino/games/spribe-aviator">
     <img
-      src="https://betrediofficial.github.io/images/extra-games/aviator_new.webp"
+      src="https://betredi1.github.io/betrediofficial/images/extra-games/aviator_new.webp"
       alt="games"
       class="otherGamesComponentLayoutImg extra-games"
       style="width: 100%; height: 100%; object-fit: cover; display: block;"
@@ -3096,7 +3109,7 @@ ${
   <a href="casino/games/pragmaticlive-spaceman">
   <a href="https://betredi115.com/${language}/casino/games/pragmaticlive-spaceman">
     <img
-      src="https://betrediofficial.github.io/images/extra-games/spaceman_new.webp"
+      src="https://betredi1.github.io/betrediofficial/images/extra-games/spaceman_new.webp"
       alt="maconcesi"
       class="otherGamesComponentLayoutImg extra-games"
       style="width: 100%; height: 100%; object-fit: cover; display: block;"
@@ -3110,7 +3123,7 @@ ${
   <a href="casino/games/betsolutions-zeppelin?modal=register">
    <a href="https://betredi115.com/${language}/casino/games/betsolutions-zeppelin">  
    <img
-      src="https://betrediofficial.github.io/images/extra-games/zeppelin_new.webp"
+      src="https://betredi1.github.io/betrediofficial/images/extra-games/zeppelin_new.webp"
       alt="sporb"
       class="otherGamesComponentLayoutImg"
       style="width: 100%; height: 100%; object-fit: cover; display: block;"
@@ -3124,7 +3137,7 @@ ${
   <a href="casino/games/pragmaticlive-big-bass-crash">
    <a href="https://betredi115.com/${language}/casino/games/pragmaticlive-big-bass-crash">
     <img
-      src="https://betrediofficial.github.io/images/extra-games/big_bass_crash_new.webp"
+      src="https://betredi1.github.io/betrediofficial/images/extra-games/big_bass_crash_new.webp"
       alt="slotcasino"
       class="otherGamesComponentLayoutImg"
       style="width: 100%; height: 100%; object-fit: cover; display: block;"
@@ -3154,7 +3167,7 @@ ${
       const gameChooserSection = `
   <div class="manually-added-home-widgets" id="game-chooser" style="width: 100%; margin: 48px auto">
     <div class="text-white" style="width: 100%; margin: 0 auto;">
-      <div style="padding: 128px 0px; background: url('https://betrediofficial.github.io/images/game-chooser-icons/bg.png');">
+      <div style="padding: 128px 0px; background: url('https://betredi1.github.io/betrediofficial/images/game-chooser-icons/bg.png');">
         <div style="margin-bottom: 42px">
           <h2 class="text-center" id="game-chooser-title-1" style="font-size: 28px; margin-bottom: 4px">
             ${
@@ -3216,7 +3229,7 @@ ${
                 z-index: 1;
               "
             >
-              <img class="play-btn" src="https://betrediofficial.github.io/images/game-chooser-icons/play.png" style="z-index: 2" />
+              <img class="play-btn" src="https://betredi1.github.io/betrediofficial/images/game-chooser-icons/play.png" style="z-index: 2" />
             </div>
           </div>
           <div
@@ -3249,7 +3262,7 @@ ${
                 z-index: 1;
               "
             >
-              <img class="play-btn" src="https://betrediofficial.github.io/images/game-chooser-icons/play.png" style="z-index: 2" />
+              <img class="play-btn" src="https://betredi1.github.io/betrediofficial/images/game-chooser-icons/play.png" style="z-index: 2" />
             </div>
           </div>
         </div>
@@ -3268,7 +3281,7 @@ ${
               height: 64px;
             "
           >
-            <img src="https://betrediofficial.github.io/images/game-chooser-icons/spin.png" style="width: 36px; height: 36px; object-fit: cover;" />
+            <img src="https://betredi1.github.io/betrediofficial/images/game-chooser-icons/spin.png" style="width: 36px; height: 36px; object-fit: cover;" />
           </button>
         </div>
       </div>
@@ -3291,7 +3304,7 @@ ${
     <a href="https://betredi115.com/${language}/casino/group/live-lobby" class="col-4" style="background: #040404;">
       <div class="box-icon-item">
         <img
-          src="https://betrediofficial.github.io/images/mobile-view/live_casino.png"
+          src="https://betredi1.github.io/betrediofficial/images/mobile-view/live_casino.png"
           width="48"
           height="48"
           class="d-block mx-auto"
@@ -3302,7 +3315,7 @@ ${
     <a href="https://betredi115.com/${language}/casino/group/lobby" class="col-4" style="background: #040404;">
       <div class="box-icon-item">
         <img
-          src="https://betrediofficial.github.io/images/mobile-view/sloticon.png"
+          src="https://betredi1.github.io/betrediofficial/images/mobile-view/sloticon.png"
           width="48"
           height="48"
           class="d-block mx-auto"
@@ -3313,7 +3326,7 @@ ${
     <a href="${depositMoneyLink()}" class="col-4" style="background: #040404;">
       <div class="box-icon-item">
         <img
-          src="https://betrediofficial.github.io/images/mobile-view/deposit.png"
+          src="https://betredi1.github.io/betrediofficial/images/mobile-view/deposit.png"
             width="48"
             height="48"
             class="d-block mx-auto"
@@ -3324,7 +3337,7 @@ ${
     <a href="${withdrawMoneyLink()}" class="col-4" style="background: #040404;">
       <div class="box-icon-item">
         <img
-          src="https://betrediofficial.github.io/images/mobile-view/withdraw.png"
+          src="https://betredi1.github.io/betrediofficial/images/mobile-view/withdraw.png"
           width="48"
           height="48"
           class="d-block mx-auto"
@@ -3335,7 +3348,7 @@ ${
     <a class="col-4" style="background: #040404;" href="https://betredi115.com/${language}?modal=bonus-request">
       <div class="box-icon-item">
         <img
-          src="https://betrediofficial.github.io/images/mobile-view/bonus.png"
+          src="https://betredi1.github.io/betrediofficial/images/mobile-view/bonus.png"
           width="48"
           height="48"
           class="d-block mx-auto"
@@ -3346,7 +3359,7 @@ ${
     <a href="https://betredi115.com/${language}/promotions" class="col-4" style="background: #040404;">
       <div class="box-icon-item">
         <img
-          src="https://betrediofficial.github.io/images/mobile-view/promotion.png"
+          src="https://betredi1.github.io/betrediofficial/images/mobile-view/promotion.png"
           width="48"
           height="48"
           class="d-block mx-auto"
@@ -3357,7 +3370,7 @@ ${
     <a onClick="$('.lowbar__btn')[$('.lowbar__btn').length -1].click()" class="col-4" style="background: #040404;">
       <div class="box-icon-item">
         <img
-          src="https://betrediofficial.github.io/images/mobile-view/support.png"
+          src="https://betredi1.github.io/betrediofficial/images/mobile-view/support.png"
           width="48"
           height="48"
           class="d-block mx-auto"
@@ -3374,7 +3387,7 @@ ${
     <div id="btn-rtp-sorgu" rel="nofollow noopener noreferrer" target="_blank" class="col-4">
       <div class="box-icon-item" style="background: linear-gradient(135deg, #3a0509, #5a0910, #a31624);">
         <img
-          src="https://betrediofficial.github.io/images/rtp/lucky_games.png"
+          src="https://betredi1.github.io/betrediofficial/images/rtp/lucky_games.png"
           width="48"
           height="48"
           class="d-block mx-auto"
@@ -3397,7 +3410,7 @@ ${
 <div class="manually-added-home-widgets bottomMenuWidgedContainer" id="bottomMenuWidgedContainer" style="margin-bottom: 10px;">
   <div class="bottom-menu-widget" style="flex: 1 1 calc(25% - 10px); text-align: center;">
     <a href="https://betredi115.com/${language}/casino/games/spribe-aviator">
-      <img src="https://betrediofficial.github.io/images/bottom-menu-widget/${language}/games.webp" alt="games" class="bottomMenuWidgetImage" >
+      <img src="https://betredi1.github.io/betrediofficial/images/bottom-menu-widget/${language}/games.webp" alt="games" class="bottomMenuWidgetImage" >
     </a>
   </div>
 
@@ -3405,7 +3418,7 @@ ${
     !isMobile
       ? `<div class="bottom-menu-widget" style="flex: 1 1 calc(25% - 10px); text-align: center;">
     <a href="https://betredi115.com/${language}/casino/group/live-casino">
-      <img src="https://betrediofficial.github.io/images/bottom-menu-widget/${language}/live_casino.webp" alt="livecasino" class="bottomMenuWidgetImage" >
+      <img src="https://betredi1.github.io/betrediofficial/images/bottom-menu-widget/${language}/live_casino.webp" alt="livecasino" class="bottomMenuWidgetImage" >
     </a>
   </div>`
       : ``
@@ -3413,12 +3426,12 @@ ${
 
   <div class="bottom-menu-widget" style="flex: 1 1 calc(25% - 10px); text-align: center;">
     <a href="https://betredi115.com/${language}/sportsbook">
-      <img src="https://betrediofficial.github.io/images/bottom-menu-widget/${language}/sports.webp" alt="sporb" class="bottomMenuWidgetImage" >
+      <img src="https://betredi1.github.io/betrediofficial/images/bottom-menu-widget/${language}/sports.webp" alt="sporb" class="bottomMenuWidgetImage" >
     </a>
   </div>
   <div class="bottom-menu-widget" style="flex: 1 1 calc(25% - 10px); text-align: center;">
     <a href="https://betredi115.com/${language}/casino/slots">
-      <img src="https://betrediofficial.github.io/images/bottom-menu-widget/${language}/casino.webp" alt="slotcasino" class="bottomMenuWidgetImage" >
+      <img src="https://betredi1.github.io/betrediofficial/images/bottom-menu-widget/${language}/casino.webp" alt="slotcasino" class="bottomMenuWidgetImage" >
     </a>
   </div>
 </div>
@@ -3453,7 +3466,7 @@ ${
                       <div class="carousel-slide active-slide" style="width: 100%; height: 100%;">
                         <div class="sdr-item-holder-bc">
                           <a href="https://betredi115.com/${language}/casino/slots" class"sdr-item-bc" href="#">
-                            <img src="https://betrediofficial.github.io/images/slot-casino-banner/slot_casino.webp" loading="lazy" class="sdr-image-bc">
+                            <img src="https://betredi1.github.io/betrediofficial/images/slot-casino-banner/slot_casino.webp" loading="lazy" class="sdr-image-bc">
                           </a>
                         </div>
                       </div>
@@ -3470,7 +3483,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/pragmaticplay-starlight-princess-1000" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/starlight_princess_1000.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/starlight_princess_1000.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3478,7 +3491,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/pragmaticplay-sweet-bonanza-1000" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/sweet_bonanza_1000.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/sweet_bonanza_1000.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3486,7 +3499,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/pragmaticplay-wisdom-of-athena" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/wisdom_of_athena.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/wisdom_of_athena.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3494,7 +3507,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/pragmaticplay-big-bass-secrets-of-the-golden-lake" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/big_bass_christmas_bash.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/big_bass_christmas_bash.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3502,7 +3515,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/hacksaw-wanted-dead-or-a-wild" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/wanted_dead_or_a_wild.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/wanted_dead_or_a_wild.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3510,7 +3523,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/pragmaticplay-big-bass-secrets-of-the-golden-lake" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/big_bass_secrets_of_the_golden_lake.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/big_bass_secrets_of_the_golden_lake.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3518,7 +3531,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;"> 
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/egt-interactive-shining-crown" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/shining_crown.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/shining_crown.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3526,7 +3539,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/egt-flaming-hot" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/flaming_hot.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/flaming_hot.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3534,7 +3547,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/pragmaticplay-gates-of-olympus" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/gates_of_olympus.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/gates_of_olympus.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3542,7 +3555,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/pragmaticplay-wild-west-gold" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/wild_west_gold.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/wild_west_gold.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3550,7 +3563,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/pragmaticplay-hand-of-midas-2" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/hand_of_midas_2.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/hand_of_midas_2.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3558,7 +3571,7 @@ ${
                       <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                         <a href="https://betredi115.com/${language}/casino/games/pragmaticplay-ripe-rewards" class="">
-                          <img src="https://betrediofficial.github.io/images/casino-games-new/ripe_rewards.png" class="casino-game-image-bc" loading="lazy">
+                          <img src="https://betredi1.github.io/betrediofficial/images/casino-games-new/ripe_rewards.png" class="casino-game-image-bc" loading="lazy">
                         </a>
                       </div>
                     </div>
@@ -3588,14 +3601,14 @@ ${
 <div class="manually-added-home-widgets section" id="tgpromo" style="margin-bottom: 14px; margin-top: 14px;">
   <div class="container otherGames">
     <a href="https://t.me/betredi" target="_blank">
-      <img src="https://betrediofficial.github.io/images/tg-promo/tg_promo_new.webp" alt="Telegram Promo" style="display: block; width: 100%; margin-bottom: 10px;" />
+      <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/tg_promo_new.webp" alt="Telegram Promo" style="display: block; width: 100%; margin-bottom: 10px;" />
     </a>
     <a href="https://betredi115.com/${language}/promotion/100-freespin-deneme-bonusu-tr">
-    <img src="https://betrediofficial.github.io/images/tg-promo/reditg.gif"
+    <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/reditg.gif"
          alt="Telegram Promo GIF"
          style="display: block; width: 100%; margin-bottom: 10px; border: 2px solid #9b000e; border-radius: 10px; max-width: 100% !important;" />
     </a>
-    <img src="https://betrediofficial.github.io/images/tg-promo/tg_promo_desc.webp" alt="Kripto Bilgilendirme" style="display: block; width: 100%;" />
+    <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/tg_promo_desc.webp" alt="Kripto Bilgilendirme" style="display: block; width: 100%;" />
   </div>
 </div>
 
@@ -3631,7 +3644,7 @@ ${
                     <div class="carousel-slide active-slide" style="width: 100%; height: 100%; !important">
                       <div class="sdr-item-holder-bc">
                         <a href="https://betredi115.com/${language}/casino/group/live-casino" class="sdr-item-bc">
-                          <img src="https://betrediofficial.github.io/images/live-casino-banner/live_casino.webp" loading="lazy" class="sdr-image-bc">
+                          <img src="https://betredi1.github.io/betrediofficial/images/live-casino-banner/live_casino.webp" loading="lazy" class="sdr-image-bc">
                         </a>
                       </div>
                     </div>
@@ -3648,7 +3661,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/pragmaticlive-blackjack-3">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/black_jack_3.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/black_jack_3.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3657,7 +3670,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/pragmaticlive-speed-blackjack-1">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/speed_blackjack_1.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/speed_blackjack_1.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3666,7 +3679,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/pragmaticlive-mega-roulette">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/mega_roulette.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/mega_roulette.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3675,7 +3688,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/pragmaticlive-baccarat-lobby">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/baccarat_lobby.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/baccarat_lobby.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3684,7 +3697,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/evolution-blackjack-vip-20">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/blackjack.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/blackjack.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3693,7 +3706,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/evolution-auto-lightning-roulette">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/lightning_roulette.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/lightning_roulette.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3702,7 +3715,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/pragmaticlive-roulette-lobby">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/roulette_lobby.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/roulette_lobby.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3711,7 +3724,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/evolution-texas-holdem-bonus-poker">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/texas_holdem_bonus_poker.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/texas_holdem_bonus_poker.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3720,7 +3733,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/evolution-first-person-roulette">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/first_person_roulette.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/first_person_roulette.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3729,7 +3742,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/evolution-blackjack-silver-f">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/blackjack_silver.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/blackjack_silver.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3738,7 +3751,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/evolution-golden-wealth-baccarat">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/golden_wealth_baccarat.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/golden_wealth_baccarat.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3747,7 +3760,7 @@ ${
                     <div class="casino-game-item" style="border: 3px solid #9b000e !important; overflow: hidden !important;">
                       <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.2); z-index: 10; pointer-events: none;"></div>
                       <a href="https://betredi115.com/${language}/casino/games/evolution-speed-vip-blackjack-h">
-                        <img src="https://betrediofficial.github.io/images/live-casino-new/speed_vi_blackjack.png" class="casino-game-image-bc img-fluid">
+                        <img src="https://betredi1.github.io/betrediofficial/images/live-casino-new/speed_vi_blackjack.png" class="casino-game-image-bc img-fluid">
                       </a>
                     </div>
                   </div>
@@ -3779,7 +3792,7 @@ ${
       <div class="sport-card" style="position: relative; border: 2px solid #9B000E; border-top-right-radius: 24px; border-bottom-left-radius: 24px; overflow: hidden; cursor: pointer;">
         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.1); z-index: 10; pointer-events: none;"></div>
         <a href="/sportsbook">
-          <img src="https://betrediofficial.github.io/images/sports/futbol_new.png" alt="Futbol" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
+          <img src="https://betredi1.github.io/betrediofficial/images/sports/futbol_new.png" alt="Futbol" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
         </a>
       </div>
     </div>
@@ -3787,7 +3800,7 @@ ${
       <div class="sport-card" style="position: relative; border: 2px solid #9B000E; border-top-right-radius: 24px; border-bottom-left-radius: 24px; overflow: hidden; cursor: pointer;">
         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.1); z-index: 10; pointer-events: none;"></div>
         <a href="/sportsbook">
-          <img src="https://betrediofficial.github.io/images/sports/basketbol_new.png" alt="Basketbol" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
+          <img src="https://betredi1.github.io/betrediofficial/images/sports/basketbol_new.png" alt="Basketbol" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
         </a>
       </div>
     </div>
@@ -3795,7 +3808,7 @@ ${
       <div class="sport-card" style="position: relative; border: 2px solid #9B000E; border-top-right-radius: 24px; border-bottom-left-radius: 24px; overflow: hidden; cursor: pointer;">
         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.1); z-index: 10; pointer-events: none;"></div>
         <a href="/sportsbook">
-          <img src="https://betrediofficial.github.io/images/sports/voleybol_new.png" alt="Voleybol" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
+          <img src="https://betredi1.github.io/betrediofficial/images/sports/voleybol_new.png" alt="Voleybol" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
         </a>
       </div>
     </div>
@@ -3803,7 +3816,7 @@ ${
       <div class="sport-card" style="position: relative; border: 2px solid #9B000E; border-top-right-radius: 24px; border-bottom-left-radius: 24px; overflow: hidden; cursor: pointer;">
         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.1); z-index: 10; pointer-events: none;"></div>
         <a href="/sportsbook">
-          <img src="https://betrediofficial.github.io/images/sports/mma_new.png" alt="MMA" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
+          <img src="https://betredi1.github.io/betrediofficial/images/sports/mma_new.png" alt="MMA" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
         </a>
       </div>
     </div>
@@ -3811,7 +3824,7 @@ ${
       <div class="sport-card" style="position: relative; border: 2px solid #9B000E; border-top-right-radius: 24px; border-bottom-left-radius: 24px; overflow: hidden; cursor: pointer;">
         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.1); z-index: 10; pointer-events: none;"></div>
         <a href="/sportsbook">
-          <img src="https://betrediofficial.github.io/images/sports/tennis_new.png" alt="Tenis" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
+          <img src="https://betredi1.github.io/betrediofficial/images/sports/tennis_new.png" alt="Tenis" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
         </a>
       </div>
     </div>
@@ -3819,7 +3832,7 @@ ${
       <div class="sport-card" style="position: relative; border: 2px solid #9B000E; border-top-right-radius: 24px; border-bottom-left-radius: 24px; overflow: hidden; cursor: pointer;">
         <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.1); z-index: 10; pointer-events: none;"></div>
         <a href="/sportsbook">
-          <img src="https://betrediofficial.github.io/images/sports/cycling_new.png" alt="Cycling" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
+          <img src="https://betredi1.github.io/betrediofficial/images/sports/cycling_new.png" alt="Cycling" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
         </a>
       </div>
     </div>
