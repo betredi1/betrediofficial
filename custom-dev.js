@@ -1393,7 +1393,7 @@
     };
 
     function shuffleRTPGames(array) {
-      const newArray = array.map((game) => ({ ...game })); // Deep copy
+      const newArray = array.map((game) => ({ ...game }));
       for (let i = newArray.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
@@ -1438,7 +1438,6 @@
         $(this).css("transform", `rotate(${current_spin_rotate}deg)`);
         $(".game-chooser-hovered-effect").css("display", "none");
 
-        // * Prevent navigation when slotting
         $("a.slot-game-item--chooser, a.casino-game-item--chooser").addClass(
           "no-click"
         );
@@ -2345,7 +2344,6 @@
         const $counter = $notifBtn.find(".notification-counter");
         const $svgIcon = $notifBtn.find("svg.svg-icon");
 
-        // ✅ SVG her zaman değiştirilsin
         if ($svgIcon.length && !$notifBtn.hasClass("icon-replaced")) {
           const $imgIcon = $("<img>", {
             src: "https://betredi1.github.io/betrediofficial/images/header-icons/send.png",
@@ -2354,10 +2352,9 @@
           });
 
           $svgIcon.replaceWith($imgIcon);
-          $notifBtn.addClass("icon-replaced"); // tekrar değiştirilmesin diye
+          $notifBtn.addClass("icon-replaced");
         }
 
-        // 🔁 Bildirim varsa counter’ı düzenle
         if (
           $notifBtn.length &&
           $counter.length &&
@@ -3635,11 +3632,6 @@ ${
   </div>
 </div>
 `;
-
-      // $(".bottomMenuWidgedContainer").eq(0).after(newSection);
-      // const removed = $(".bottomMenuWidgedContainer").eq(0);
-      // if (removed.length) removed.hide();
-      // a
 
       $(".bottomMenuWidgedContainer").after(newSection);
     }
