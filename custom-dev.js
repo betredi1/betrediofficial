@@ -2189,6 +2189,7 @@
       insertCustomSidebarLink();
       customizeBonusButton();
       customizeNotificationCounter();
+      customizeMessageNotificationCounter();
       injectProvidersMarquee();
       // is_mobile && mobileBoxes();
 
@@ -2389,7 +2390,53 @@
       });
     }
 
-    customizeNotificationCounter();
+    function customizeMessageNotificationCounter() {
+      const observer = new MutationObserver(() => {
+        var $messageTab;
+
+        if (language === "tr")
+          $messageTab = $(
+            "#notifications-wrapper .tabs-nav__btn:contains('Mesajlar')"
+          );
+
+        if (language === "en")
+          $messageTab = $(
+            "#notifications-wrapper .tabs-nav__btn:contains('messages')"
+          );
+
+        const $counter = $messageTab.find(".notification-counter");
+
+        if (
+          $messageTab.length &&
+          $counter.length &&
+          !$counter.hasClass("customized")
+        ) {
+          $counter.addClass("customized").text("+1").css({
+            width: "20px",
+            height: "20px",
+            backgroundColor: "red",
+            color: "white",
+            fontWeight: "bold",
+            fontSize: "12px",
+            lineHeight: "20px",
+            textAlign: "center",
+            overflow: "visible",
+            padding: "0",
+            border: "none",
+            borderRadius: "50%",
+            top: "-4px",
+            right: "-4px",
+            position: "absolute",
+            zIndex: "9999",
+          });
+        }
+      });
+
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true,
+      });
+    }
 
     function insertCustomSidebarLink() {
       const observer = new MutationObserver(() => {
