@@ -1647,7 +1647,7 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <a href="/${language}/casino/slots">
+              <a href="https://betredi116.com/${language}/casino/slots">
                 ${
                   isMobile()
                     ? `<img src="https://betredi1.github.io/betrediofficial/images/temp-sliders-mobile/${language}/ayinkazanci.png" class="slide-image" />`
