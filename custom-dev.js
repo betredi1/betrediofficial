@@ -2138,6 +2138,25 @@
       rtpSorguLogic();
     }
 
+    function waitForElement(selector, callback, timeout = 10000) {
+      const intervalTime = 100;
+      let timeElapsed = 0;
+
+      const interval = setInterval(() => {
+        const el = document.querySelector(selector);
+        if (el) {
+          clearInterval(interval);
+          callback(el);
+        } else {
+          timeElapsed += intervalTime;
+          if (timeElapsed >= timeout) {
+            clearInterval(interval);
+            console.warn("Element not found:", selector);
+          }
+        }
+      }, intervalTime);
+    }
+
     function initialize() {
       removeOriginalMainSlider();
 
@@ -2181,9 +2200,19 @@
         // otherGames();
 
         // gameChooser();
-        setTimeout(insertCustomMiniGamesSlider, 1000);
-        setTimeout(initCustomMiniGamesSlider, 1500);
-        setTimeout(otherGames, 1000);
+        // setTimeout(insertCustomMiniGamesSlider, 1000);
+        // setTimeout(initCustomMiniGamesSlider, 1500);
+        // setTimeout(otherGames, 1000);
+
+        waitForElement("h2.section__title:contains('PragmaticPlay')", () => {
+          insertCustomMiniGamesSlider();
+          setTimeout(initCustomMiniGamesSlider, 300);
+        });
+
+        waitForElement("h2.section__title:contains('Game Show')", () => {
+          otherGames();
+        });
+
         setTimeout(gameChooser, 1000);
       }
 
