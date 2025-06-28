@@ -1809,10 +1809,12 @@
   
   `;
 
-      // if ($("#casinooyunlari").length > 0)
-      //   $("#casinooyunlari").after(miniGamesSection);
-      // else $("#mobileboxes").after(miniGamesSection);
-      $("#game-chooser").before(miniGamesSection);
+      const pragmaticSliderSection = $(
+        "h2.section__title:contains('PragmaticPlay')"
+      ).closest(".section");
+
+      pragmaticSliderSection.after(miniGamesSection);
+      // $("#game-chooser").before(miniGamesSection);
     }
 
     function initCustomMiniGamesSlider() {
