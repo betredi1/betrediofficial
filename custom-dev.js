@@ -3204,7 +3204,13 @@ ${
 
         `;
 
-      $("#game-chooser").after(newSection);
+      const gameShowSection = $(
+        "h2.section__title:contains('Game Show')"
+      ).closest(".section");
+
+      gameShowSection.after(newSection);
+
+      // $("#game-chooser").after(newSection);
     }
 
     // * Game Chooser
