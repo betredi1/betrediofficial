@@ -2169,8 +2169,6 @@
 
         if (is_mobile) rtpSorgu();
 
-        // miniGames();
-
         // sportsCard();
         //hide default games
 
@@ -2178,12 +2176,15 @@
         // !is_mobile && hideDefaultGames(50);
         // !is_mobile && hideDefaultGames(1500);
 
-        insertCustomMiniGamesSlider();
-        setTimeout(initCustomMiniGamesSlider, 500);
+        // insertCustomMiniGamesSlider();
 
-        otherGames();
+        // otherGames();
 
-        gameChooser();
+        // gameChooser();
+        setTimeout(insertCustomMiniGamesSlider, 1000);
+        setTimeout(initCustomMiniGamesSlider, 1500);
+        setTimeout(otherGames, 1000);
+        setTimeout(gameChooser, 1000);
       }
 
       // * GENERAL
