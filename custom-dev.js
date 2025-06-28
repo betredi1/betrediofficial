@@ -2167,8 +2167,6 @@
 
         if (!is_mobile) casinoGames();
 
-        gameChooser();
-
         if (is_mobile) rtpSorgu();
 
         // miniGames();
@@ -2182,7 +2180,10 @@
 
         insertCustomMiniGamesSlider();
         setTimeout(initCustomMiniGamesSlider, 500);
+
         otherGames();
+
+        gameChooser();
       }
 
       // * GENERAL
@@ -2199,7 +2200,7 @@
       // customizeSignupModal();
       // customizeSigninModal();
 
-      customizeBonusButton();
+      // customizeBonusButton();
       injectExtraText();
       // autoplayMiniSlider();
 
