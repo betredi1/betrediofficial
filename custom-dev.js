@@ -1809,9 +1809,13 @@
   
   `;
 
+      // const pragmaticSliderSection = $(
+      //   "h2.section__title:contains('PragmaticPlay')"
+      // ).closest(".section");
+
       const pragmaticSliderSection = $(
-        "h2.section__title:contains('PragmaticPlay')"
-      ).closest(".section");
+        ".section:has(h2.section__title:contains('PragmaticPlay'))"
+      );
 
       pragmaticSliderSection.after(miniGamesSection);
       // $("#game-chooser").before(miniGamesSection);
@@ -2204,14 +2208,20 @@
         // setTimeout(initCustomMiniGamesSlider, 1500);
         // setTimeout(otherGames, 1000);
 
-        waitForElement("h2.section__title:contains('PragmaticPlay')", () => {
-          insertCustomMiniGamesSlider();
-          setTimeout(initCustomMiniGamesSlider, 300);
-        });
+        waitForElement(
+          ".section:has(h2.section__title:contains('PragmaticPlay'))",
+          () => {
+            insertCustomMiniGamesSlider();
+            setTimeout(initCustomMiniGamesSlider, 300);
+          }
+        );
 
-        waitForElement("h2.section__title:contains('Game Show')", () => {
-          otherGames();
-        });
+        waitForElement(
+          ".section:has(h2.section__title:contains('Game Show'))",
+          () => {
+            otherGames();
+          }
+        );
 
         setTimeout(gameChooser, 1000);
       }
@@ -3235,9 +3245,13 @@ ${
 
         `;
 
+      // const gameShowSection = $(
+      //   "h2.section__title:contains('Game Show')"
+      // ).closest(".section");
+
       const gameShowSection = $(
-        "h2.section__title:contains('Game Show')"
-      ).closest(".section");
+        ".section:has(h2.section__title:contains('Game Show'))"
+      );
 
       gameShowSection.after(newSection);
 
