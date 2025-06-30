@@ -3185,7 +3185,7 @@ ${
   <div class="hovered-effect" style="opacity: 0; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.1); z-index: 10; pointer-events: none;"></div>
   <a href="casino/games/spribe-aviator">
     <img
-      src="https://betredi1.github.io/betrediofficial/images/extra-games/aviator_new.webp"
+      src="https://vendor-provider.fra1.digitaloceanspaces.com/ebetlab/gXmqkthvbB1521K/games/dsux8pQe8IaeWVxRPLje03mmnbdDVYQ8BXr4s3SO.png"
       alt="games"
       class="otherGamesComponentLayoutImg extra-games"
       style="width: 100%; height: 100%; object-fit: cover; display: block;"
@@ -3199,7 +3199,7 @@ ${
   <a href="casino/games/pragmaticlive-spaceman">
   <a href="https://betredi116.com/${language}/casino/games/pragmaticlive-spaceman">
     <img
-      src="https://betredi1.github.io/betrediofficial/images/extra-games/spaceman_new.webp"
+      src="https://vendor-provider.fra1.digitaloceanspaces.com/ebetlab/gXmqkthvbB1521K/games/OidN9DtGs4Y3s9ZzJOak7poMA1m0v6vRzMoVoTbv.png"
       alt="maconcesi"
       class="otherGamesComponentLayoutImg extra-games"
       style="width: 100%; height: 100%; object-fit: cover; display: block;"
