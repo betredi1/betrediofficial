@@ -1809,10 +1809,16 @@
   
   `;
 
-      // if ($("#casinooyunlari").length > 0)
-      //   $("#casinooyunlari").after(miniGamesSection);
-      // else $("#mobileboxes").after(miniGamesSection);
-      $("#game-chooser").before(miniGamesSection);
+      // const pragmaticSliderSection = $(
+      //   "h2.section__title:contains('PragmaticPlay')"
+      // ).closest(".section");
+
+      const pragmaticSliderSection = $(
+        ".section:has(h2.section__title:contains('PragmaticPlay'))"
+      );
+
+      pragmaticSliderSection.after(miniGamesSection);
+      // $("#game-chooser").before(miniGamesSection);
     }
 
     function initCustomMiniGamesSlider() {
@@ -2136,6 +2142,25 @@
       rtpSorguLogic();
     }
 
+    function waitForElement(selector, callback, timeout = 10000) {
+      const intervalTime = 100;
+      let timeElapsed = 0;
+
+      const interval = setInterval(() => {
+        const $el = $(selector);
+        if ($el.length > 0) {
+          clearInterval(interval);
+          callback($el);
+        } else {
+          timeElapsed += intervalTime;
+          if (timeElapsed >= timeout) {
+            clearInterval(interval);
+            console.warn("Element not found:", selector);
+          }
+        }
+      }, intervalTime);
+    }
+
     function initialize() {
       removeOriginalMainSlider();
 
@@ -2165,11 +2190,7 @@
 
         if (!is_mobile) casinoGames();
 
-        gameChooser();
-
         if (is_mobile) rtpSorgu();
-
-        // miniGames();
 
         // sportsCard();
         //hide default games
@@ -2178,9 +2199,31 @@
         // !is_mobile && hideDefaultGames(50);
         // !is_mobile && hideDefaultGames(1500);
 
-        insertCustomMiniGamesSlider();
-        setTimeout(initCustomMiniGamesSlider, 500);
-        otherGames();
+        // insertCustomMiniGamesSlider();
+
+        // otherGames();
+
+        // gameChooser();
+        // setTimeout(insertCustomMiniGamesSlider, 1000);
+        // setTimeout(initCustomMiniGamesSlider, 1500);
+        // setTimeout(otherGames, 1000);
+
+        waitForElement(
+          ".section:has(h2.section__title:contains('PragmaticPlay'))",
+          () => {
+            insertCustomMiniGamesSlider();
+            setTimeout(initCustomMiniGamesSlider, 300);
+          }
+        );
+
+        waitForElement(
+          ".section:has(h2.section__title:contains('Game Show'))",
+          () => {
+            otherGames();
+          }
+        );
+
+        setTimeout(gameChooser, 1000);
       }
 
       // * GENERAL
@@ -2197,7 +2240,7 @@
       // customizeSignupModal();
       // customizeSigninModal();
 
-      customizeBonusButton();
+      // customizeBonusButton();
       injectExtraText();
       // autoplayMiniSlider();
 
@@ -3202,7 +3245,17 @@ ${
 
         `;
 
-      $("#game-chooser").after(newSection);
+      // const gameShowSection = $(
+      //   "h2.section__title:contains('Game Show')"
+      // ).closest(".section");
+
+      const gameShowSection = $(
+        ".section:has(h2.section__title:contains('Game Show'))"
+      );
+
+      gameShowSection.after(newSection);
+
+      // $("#game-chooser").after(newSection);
     }
 
     // * Game Chooser
