@@ -2211,15 +2211,19 @@
         waitForElement(
           ".section:has(h2.section__title:contains('PragmaticPlay'))",
           () => {
-            insertCustomMiniGamesSlider();
-            setTimeout(initCustomMiniGamesSlider, 300);
+            setTimeout(() => {
+              insertCustomMiniGamesSlider();
+            }, 3500);
+            setTimeout(initCustomMiniGamesSlider, 4000);
           }
         );
 
         waitForElement(
           ".section:has(h2.section__title:contains('Game Show'))",
           () => {
-            otherGames();
+            setTimeout(() => {
+              otherGames();
+            }, 3500);
           }
         );
 
