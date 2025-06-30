@@ -4126,7 +4126,15 @@ ${
          </a>
       </div>
 
-            <div class="col-1 button-section" style="align-items: center; justify-items: center;">
+       <div class="col-1">
+          <a href="https://wa.me/37254588167" class="manual-redi-button" target="_blank">
+            <span>
+            ${SVGS.whatsappIcon}
+            </span>
+         </a>
+      </div>
+
+      <div class="col-1 button-section" style="align-items: center; justify-items: center;">
          <a href="https://betredicontact.com/" target="_blank" class="manual-redi-button" style="min-width: 32px !important; max-width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: 4px; border: none;">
          <span>
          
@@ -4141,14 +4149,6 @@ ${
 </svg>
 
          </span>
-         </a>
-      </div>
-
-       <div class="col-1">
-          <a href="https://wa.me/37254588167" class="manual-redi-button" target="_blank">
-            <span>
-            ${SVGS.whatsappIcon}
-            </span>
          </a>
       </div>
 
