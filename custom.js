@@ -4134,8 +4134,8 @@ ${
          </a>
       </div>
 
-      <div class="col-1 button-section" style="align-items: center; justify-items: center;">
-         <a href="https://betredicontact.com/" target="_blank" class="manual-redi-button" style="min-width: 32px !important; max-width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: 4px; border: none;">
+      <div class="col-1 button-section" style="align-items: center; justify-items: center; border-right: 0px !important;">
+         <a href="https://betredicontact.com/" target="_blank" class="manual-redi-button" style="width: 56px !important; max-width: 75px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: 4px; border: none;">
          <span>
          
 <svg width="18" height="18" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
