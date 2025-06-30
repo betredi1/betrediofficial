@@ -2147,10 +2147,10 @@
       let timeElapsed = 0;
 
       const interval = setInterval(() => {
-        const el = document.querySelector(selector);
-        if (el) {
+        const $el = $(selector);
+        if ($el.length > 0) {
           clearInterval(interval);
-          callback(el);
+          callback($el);
         } else {
           timeElapsed += intervalTime;
           if (timeElapsed >= timeout) {
@@ -2211,19 +2211,15 @@
         waitForElement(
           ".section:has(h2.section__title:contains('PragmaticPlay'))",
           () => {
-            setTimeout(() => {
-              insertCustomMiniGamesSlider();
-            }, 3500);
-            setTimeout(initCustomMiniGamesSlider, 4000);
+            insertCustomMiniGamesSlider();
+            setTimeout(initCustomMiniGamesSlider, 300);
           }
         );
 
         waitForElement(
           ".section:has(h2.section__title:contains('Game Show'))",
           () => {
-            setTimeout(() => {
-              otherGames();
-            }, 3500);
+            otherGames();
           }
         );
 
