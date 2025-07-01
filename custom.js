@@ -4099,7 +4099,7 @@ ${
 
     if ($("#mobile-header-buttons").length === 0 && isHomePage) {
       $("header .container").append(`
-    <div class="row" id="mobile-header-buttons">
+    <div class="row" id="mobile-header-buttons" style="margin-bottom: 12px;">
 
       <div class="col-1">
           <a href="https://redisportv.com/" target="_blank" class="manual-redi-button">
