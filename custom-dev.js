@@ -3964,7 +3964,7 @@ ${
 <span class="manual-buttons" id="web-header-buttons">
 <div class="buttonsContainer">
    <div class="button-section" style="align-items: center;">
-      <a href="https://redisportv.com/" target="_blank" class="manual-redi-button" style="border-radius: 4px; border: none; font-size: 12px; height: 32px;">
+      <a href="https://live.redisportv.com/client/" target="_blank" class="manual-redi-button" style="border-radius: 4px; border: none; font-size: 12px; height: 32px;">
       <span style="margin-right: 6px;margin-top: -4px; font-size: .4rem;">
       
   <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
