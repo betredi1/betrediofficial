@@ -4102,7 +4102,7 @@ ${
     <div class="row" id="mobile-header-buttons" style="margin-bottom: 12px;">
 
       <div class="col-1">
-          <a href="https://redisportv.com/" target="_blank" class="manual-redi-button">
+          <a href="https://live.redisportv.com/client/" target="_blank" class="manual-redi-button">
             <span>
             ${SVGS.tvIcon}
             </span>
