@@ -1493,16 +1493,16 @@
           const seoParagraph = `
               <section style="visibility: hidden; height: 0; overflow: hidden;" class="seo-injector">
                 <p style="font-size:14px; line-height:1.6; margin-top:2rem;">
-                  <strong>betredi117.com.com</strong>, <strong>Betredi güncel giriş adresi</strong> olarak 2025 yılı itibarıyla hizmet vermeye devam etmektedir. 
+                  <strong>betredi117.com</strong>, <strong>Betredi güncel giriş adresi</strong> olarak 2025 yılı itibarıyla hizmet vermeye devam etmektedir. 
                   Türkiye’den erişim kısıtlaması olmadan <strong>betredi giriş</strong> işlemlerini güvenli ve hızlı şekilde gerçekleştirebilirsiniz.
                 </p>
                 <p style="font-size:14px; line-height:1.6;">
                   <strong>Betredi yeni adresi</strong> üzerinden kullanıcılar en güncel bilgilere, bağlantılara ve deneyimlere kolayca ulaşabilir. 
-                  Şeffaf hizmet anlayışı ve kripto tabanlı erişim modeli ile <strong>betredi117.com.com</strong> kalıcı çözümünüzdür.
+                  Şeffaf hizmet anlayışı ve kripto tabanlı erişim modeli ile <strong>betredi117.com</strong> kalıcı çözümünüzdür.
                 </p>
                 <p style="font-size:14px; line-height:1.6;">
                   Bu sayfayı sık kullanılanlara ekleyerek <strong>betredi güncel giriş</strong>, <strong>betredi yorumları</strong> ve <strong>betredi kullanıcı deneyimi</strong> gibi 
-                  detaylara her zaman anında ulaşabilirsiniz. En doğru ve resmi kaynak <strong>betredi117.com.com</strong> olacaktır.
+                  detaylara her zaman anında ulaşabilirsiniz. En doğru ve resmi kaynak <strong>betredi117.com</strong> olacaktır.
                 </p>
               </section>
             `;
@@ -1591,7 +1591,7 @@
           $('a[href="/tr/license"]').on("click", function (e) {
             e.preventDefault();
             window.open(
-              "https://verification.anjouangaming.org/validate?domain=betredi117.com.com&seal_id=39b9ad8bcead64861088d3fa347de2584534ea0ec3c91b1ba0dce04299d18b6e1414b438199e37079ba4344f152d63df&stamp=e726f50e436153206f2206995d3f80ba",
+              "https://verification.anjouangaming.org/validate?domain=betredi117.com&seal_id=39b9ad8bcead64861088d3fa347de2584534ea0ec3c91b1ba0dce04299d18b6e1414b438199e37079ba4344f152d63df&stamp=e726f50e436153206f2206995d3f80ba",
               "_blank"
             );
           });
