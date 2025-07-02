@@ -1647,38 +1647,11 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <a href="https://betredi117.com/${language}/casino/slots">
-                ${
-                  isMobile()
-                    ? `<img src="https://betredi1.github.io/betrediofficial/images/temp-sliders-mobile/${language}/ayinkazanci.png" class="slide-image" />`
-                    : `<img src="https://betredi1.github.io/betrediofficial/images/temp-sliders/${language}/ayinkazanci.png" class="slide-image" />`
-                }
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#">
-                ${
-                  isMobile()
-                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/cekimipaylas.png" class="slide-image" />`
-                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/cekimipaylas.png" class="slide-image" />`
-                }
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="https://betredi117.com/${language}/promotion/100-freespin-deneme-bonusu-tr">
-                ${
-                  isMobile()
-                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/100freespin.webp" class="slide-image" />`
-                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/100freespin.webp" class="slide-image" />`
-                }
-              </a>
-            </div>
-            <div class="swiper-slide">
               <a href="https://betredi117.com/${language}/promotion/50-slot-yatirim-bonusu-tr">
                 ${
                   isMobile()
-                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/50slot.webp" class="slide-image" />`
-                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/50slot.webp" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/50slot.jpg" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/50slot.jpg" class="slide-image" />`
                 }
               </a>
             </div>
@@ -1686,26 +1659,62 @@
               <a href="https://betredi117.com/${language}/promotion/30-casino-discount-tr">
                 ${
                   isMobile()
-                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/30casino.webp" class="slide-image" />`
-                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/30casino.webp" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/30casino.jpg" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/30casino.jpg" class="slide-image" />`
                 }
               </a>
             </div>
             <div class="swiper-slide">
-              <a href="https://betredi117.com/${language}/promotion/15-casino-yatirim-bonusu-tr">
+              <a href="https://betredi117.com/${language}/promotion/100-slot-iade-bonusu-rt">
                 ${
                   isMobile()
-                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/15casino.webp" class="slide-image" />`
-                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/15casino.webp" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/100slotiade.jpg" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/100slotiade.jpg" class="slide-image" />`
                 }
               </a>
             </div>
             <div class="swiper-slide">
-              <a href="https://betredi117.com/${language}/promotion/15-spor-yatirim-bonusu-tr">
+              <a href="https://betredi117.com/${language}/promotion/100-freespin-deneme-bonusu-tr">
                 ${
                   isMobile()
-                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/15spor.webp" class="slide-image" />`
-                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/15spor.webp" class="slide-image" />`
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/100fs.jpg" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/100fs.jpg" class="slide-image" />`
+                }
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="https://betredi117.com/${language}/promotion/1000000tl-cekim-imkani">
+                ${
+                  isMobile()
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/1m.jpg" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/1m.jpg" class="slide-image" />`
+                }
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="https://betredi117.com/${language}/promotion/aylik-kumbara-bonusu">
+                ${
+                  isMobile()
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/telegram.jpg" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/telegram.jpg" class="slide-image" />`
+                }
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="https://betredi117.com/${language}/promotion/1000tl-arkadasini-getir-bonusu-tr">
+                ${
+                  isMobile()
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/arkadasinigetir.jpg" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/arkadasinigetir.jpg" class="slide-image" />`
+                }
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="https://betredi117.com/${language}/promotion/30-spor-kayip-bonusu">
+                ${
+                  isMobile()
+                    ? `<img src="https://betredi1.github.io/betrediofficial/images/mobile-main-slider/${language}/30spor.jpg" class="slide-image" />`
+                    : `<img src="https://betredi1.github.io/betrediofficial/images/slider/${language}/30spor.jpg" class="slide-image" />`
                 }
               </a>
             </div>
