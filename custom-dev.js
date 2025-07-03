@@ -4002,7 +4002,7 @@ ${
       </span>
       REDI LIVE
       </a>
-      <a href=$https://betredi117.com/${language}/payments/deposit class="manual-redi-button" style="border-radius: 4px; border: none; font-size: 12px; height: 32px;">
+      <a href=https://betredi117.com/${language}/payments/deposit class="manual-redi-button" style="border-radius: 4px; border: none; font-size: 12px; height: 32px;">
       <span style="margin-right: 6px;margin-top: 0px;">
       
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
