@@ -9,7 +9,7 @@
   var isLoggedIn = false;
 
   const depositMoneyLink = () =>
-    !isLoggedIn ? "?modal=login" : "?modal=wallet&tab=deposit";
+    !isLoggedIn ? "?modal=login" : "payments/deposit";
 
   const withdrawMoneyLink = () =>
     !isLoggedIn ? "?modal=login" : "?modal=wallet&tab=withdraw";
