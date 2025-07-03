@@ -3567,7 +3567,7 @@ ${
       <div class="col-12">
         <div class="section__title-wrap">
           <h2 class="section__title" style="font-size: 30px; font-family: 'Rajdhani-SemiBold', serif; margin-bottom: 10px;">
-            <img src="https://betredi1.github.io/betrediofficial/images/slot-games-title/slot.png" width="32" height="32" class="d-block mx-auto">
+            <img src="https://betredi1.github.io/betrediofficial/images/slot-games-title/slot.png" width="38" height="38" class="d-block mx-auto">
             ${title}
           </h2>
         </div>
@@ -3741,7 +3741,7 @@ ${
       <div class="col-12">
         <div class="section__title-wrap">
           <h2 class="section__title" style="font-size: 30px; font-family: 'Rajdhani-SemiBold', serif; margin-bottom: 10px;">
-            <img src="https://betredi1.github.io/betrediofficial/images/casino-games-title/live_casino.png" width="32" height="32" class="d-block mx-auto">
+            <img src="https://betredi1.github.io/betrediofficial/images/casino-games-title/live_casino.png" width="38" height="38" class="d-block mx-auto">
             ${title}
           </h2>
         </div>
