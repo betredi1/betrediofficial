@@ -3185,8 +3185,8 @@ ${
     <div class="row">
       <div class="col-12">
         <div class="section__title-wrap">
-          <h2 class="section__title">
-            <img src="https://betredi1.github.io/betrediofficial/images/extra.png" alt="extra-games" class="svg-icon" />
+          <h2 class="section__title" style="font-weigth: 800 !important; font-size: 24px !important;">
+            <img src="https://betredi1.github.io/betrediofficial/images/extra.png" alt="extra-games" class="svg-icon" style="width: 38px !important; height: 38px !important;" />
             ${language === "tr" ? "EKSTRA OYUNLAR" : "EXTRA GAMES"}
           </h2>
           <a class="section__view section__view--carousel" href="https://betredi117.com/${language}/casino/group/top-games">
