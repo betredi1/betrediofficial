@@ -3185,7 +3185,7 @@ ${
     <div class="row">
       <div class="col-12">
         <div class="section__title-wrap">
-          <h2 class="section__title">
+          <h2 class="section__title" style="font-weigth: 800 !important; font-size: 24px !important;">
             <img src="https://betredi1.github.io/betrediofficial/images/extra.png" alt="extra-games" class="svg-icon" />
             ${language === "tr" ? "EKSTRA OYUNLAR" : "EXTRA GAMES"}
           </h2>
