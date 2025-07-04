@@ -1606,12 +1606,20 @@
             );
           });
 
+          $('a[href="/tr/?modal=wallet"]').on("click", function (e) {
+            e.preventDefault();
+            window.location.href = `https://betredi118.com/${language}/payments/deposit`;
+          });
+
+          $('a[href="/en/?modal=wallet"]').on("click", function (e) {
+            e.preventDefault();
+            window.location.href = `https://betredi118.com/${language}/payments/deposit`;
+          });
+
           $(document).on("click", ".settings__btn", function (e) {
             e.preventDefault();
 
             if ($(this).find(".new-bonus-btn").length) return;
-
-            console.log("Orijinal buton bulundu!");
 
             const newButton = $("<button>", {
               class: "new-bonus-btn btn btn-primary",
@@ -1624,7 +1632,6 @@
             });
 
             $(this).empty().append(newButton);
-            console.log("Buton değiştirildi!");
           });
         });
       }
@@ -2243,14 +2250,6 @@
         );
 
         setTimeout(gameChooser, 1000);
-
-        $('a[href="/tr/payments/deposit?modal=wallet"]').on(
-          "click",
-          function (e) {
-            e.preventDefault();
-            window.location.href = `https://betredi118.com/${language}/payments/deposit`;
-          }
-        );
       }
 
       // * GENERAL
