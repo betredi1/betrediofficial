@@ -2243,6 +2243,14 @@
         );
 
         setTimeout(gameChooser, 1000);
+
+        $('a[href="/tr/payments/deposit?modal=wallet"]').on(
+          "click",
+          function (e) {
+            e.preventDefault();
+            window.location.href = `https://betredi118.com/${language}/payments/deposit`;
+          }
+        );
       }
 
       // * GENERAL
