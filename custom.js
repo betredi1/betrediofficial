@@ -3414,7 +3414,7 @@ ${
       if ($("#mobileboxes").length > 0) return $("#mobileboxes").show();
 
       var newSection = `
-<div class="manually-added-home-widgets container mt-4 mobile-boxes" id="mobileboxes" style="margin-bottom: 10px;">
+<div class="manually-added-home-widgets container mt-4 mobile-boxes" id="mobileboxes" style="margin-bottom: 10px !important; margin-top: 10px !important;">
   <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-1">
     <a href="https://betredi117.com/${language}/casino/group/live-lobby" class="col-4" style="background: #040404;">
       <div class="box-icon-item">
