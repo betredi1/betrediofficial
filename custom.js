@@ -3000,8 +3000,6 @@ ${
       swiperElement.insertAdjacentElement("afterend", section);
     }
 
-    // boşş :))
-
     function injectExtraText() {
       const observer = new MutationObserver(() => {
         const $targetContainer = $(
