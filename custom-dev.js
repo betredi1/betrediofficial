@@ -3086,7 +3086,7 @@ ${
 
   #slot-game-chooser-section a img.slot-game-chooser-item,
   #casino-game-chooser-section a img.casino-game-chooser-item {
-    transition: 5s transform ease-in-out;
+    transition: 5s transform ease-out;
   }
 
   .game-chooser-hovered-effect {
