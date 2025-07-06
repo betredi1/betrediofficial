@@ -3462,7 +3462,7 @@ ${
         <span>Slot</span>
       </div>
     </a>
-     <a href="${depositMoneyLink()}" class="col-4" style="background: #040404;">
+     <a href=${depositMoneyLink()} class="col-4" style="background: #040404;">
       <div class="box-icon-item">
         <img
           src="https://betredi1.github.io/betrediofficial/images/mobile-view/deposit.png"
