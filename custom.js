@@ -8,24 +8,15 @@
 
   var isLoggedIn = false;
 
-  const headerObserver = new MutationObserver(() => {
-    const isNowLoggedIn = $(".header__signin").length === 0;
+  setInterval(() => {
+    const currentlyLoggedIn = $(".header__signin").length === 0;
 
-    if (isNowLoggedIn && !isLoggedIn) isLoggedIn = true;
-    else if (!isNowLoggedIn && isLoggedIn) isLoggedIn = false;
-  });
-
-  const headerElement = document.querySelector("header");
-
-  if (headerElement) {
-    headerObserver.observe(headerElement, {
-      childList: true,
-      subtree: true,
-    });
-  }
+    if (currentlyLoggedIn !== isLoggedIn) {
+      isLoggedIn = currentlyLoggedIn;
+    }
+  }, 1000);
 
   // Old deposit & withdraw links
-
   // const depositMoneyLink = () =>
   //   !isLoggedIn ? "?modal=login" : "?modal=wallet&tab=withdraw";
 

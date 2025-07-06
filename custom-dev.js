@@ -8,8 +8,15 @@
 
   var isLoggedIn = false;
 
-  // Old deposit & withdraw links
+  setInterval(() => {
+    const currentlyLoggedIn = $(".header__signin").length === 0;
 
+    if (currentlyLoggedIn !== isLoggedIn) {
+      isLoggedIn = currentlyLoggedIn;
+    }
+  }, 1000);
+
+  // Old deposit & withdraw links
   // const depositMoneyLink = () =>
   //   !isLoggedIn ? "?modal=login" : "?modal=wallet&tab=withdraw";
 
