@@ -3438,8 +3438,8 @@ ${
     function mobileBoxes() {
       if ($("#mobileboxes").length > 0) return $("#mobileboxes").show();
 
-      const href = isLoggedIn
-        ? "https://betredi118.com/tr?modal=login"
+      const href = !isLoggedIn
+        ? `"https://betredi118.com/${language}/?modal=login"`
         : `"https://betredi118.com/${language}/payments/deposit"`;
 
       var newSection = `
