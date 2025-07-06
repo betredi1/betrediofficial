@@ -5,7 +5,6 @@
   let current_spin_rotate = 0;
 
   var language = window.location.pathname.split("/")[1];
-	
 
   var isLoggedIn = false;
 
@@ -4247,3 +4246,5 @@ ${
 ">${language === "tr" ? "GİRİŞ" : "LOGIN"}</h1>`);
   }
 })();
+
+// b
