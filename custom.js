@@ -8,7 +8,6 @@
 
   var isLoggedIn = false;
 
-  // her 1 saniyede kontrol
   setInterval(() => {
     const currentlyLoggedIn = $(".header__signin").length === 0;
 
