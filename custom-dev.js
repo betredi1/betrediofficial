@@ -1484,7 +1484,7 @@
           $(
             "a.slot-game-item--chooser, a.casino-game-item--chooser"
           ).removeClass("no-click");
-        }, 3500);
+        }, 5000);
       });
     }
 
@@ -2999,8 +2999,6 @@ ${
 
       swiperElement.insertAdjacentElement("afterend", section);
     }
-
-    // boşş :))
 
     function injectExtraText() {
       const observer = new MutationObserver(() => {
