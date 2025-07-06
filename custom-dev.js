@@ -3438,6 +3438,10 @@ ${
     function mobileBoxes() {
       if ($("#mobileboxes").length > 0) return $("#mobileboxes").show();
 
+      const href = isLoggedIn
+        ? "https://betredi118.com/tr?modal=login"
+        : `"https://betredi118.com/${language}/payments/deposit"`;
+
       var newSection = `
 <div class="manually-added-home-widgets container mt-4 mobile-boxes" id="mobileboxes" style="margin-bottom: 10px !important; margin-top: 10px !important;">
   <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-1">
@@ -3463,7 +3467,7 @@ ${
         <span>Slot</span>
       </div>
     </a>
-     <a href="https://betredi118.com/${language}/payments/deposit" class="col-4" style="background: #040404;">
+     <a href=${href} class="col-4" style="background: #040404;">
       <div class="box-icon-item">
         <img
           src="https://betredi1.github.io/betrediofficial/images/mobile-view/deposit.png"
@@ -3747,7 +3751,6 @@ ${
     <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/tg_promo_desc.webp" alt="Kripto Bilgilendirme" style="display: block; width: 100%;" />
   </div>
 </div>
-
 `;
 
       if ($("#slotoyunlari").length > 0) $("#slotoyunlari").after(newSection);
