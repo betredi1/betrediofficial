@@ -8,6 +8,8 @@
 
   var isLoggedIn = false;
 
+  // Old deposit & withdraw links
+
   // const depositMoneyLink = () =>
   //   !isLoggedIn ? "?modal=login" : "?modal=wallet&tab=withdraw";
 
