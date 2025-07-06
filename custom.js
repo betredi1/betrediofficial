@@ -3089,8 +3089,8 @@ ${
 
   #slot-game-chooser-section a img.slot-game-chooser-item,
   #casino-game-chooser-section a img.casino-game-chooser-item {
-    -webkit-transition: -webkit-transform 4.5s cubic-bezier(0.85, 0, 0.9, 1);
-    transition: transform 4.5s cubic-bezier(0.85, 0, 0.9, 1);
+    -webkit-transition: -webkit-transform 4.5s cubic-bezier(0.75, 0, 0.05, 1);
+    transition: transform 4.5s cubic-bezier(0.75, 0, 0.05, 1);
     will-change: transform;
     transform: translateZ(0);
     backface-visibility: hidden;
