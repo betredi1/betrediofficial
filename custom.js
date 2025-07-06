@@ -1485,7 +1485,7 @@
           $(
             "a.slot-game-item--chooser, a.casino-game-item--chooser"
           ).removeClass("no-click");
-        }, 3500);
+        }, 5000);
       });
     }
 
