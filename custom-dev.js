@@ -8,13 +8,19 @@
 
   var language = window.location.pathname.split("/")[1];
 
-  window.isLoggedIn = false;
+  window.isLoggedIn = $(".header__signin").length === 0;
+  let previousLoginStatus = window.isLoggedIn;
 
   setInterval(() => {
     const currentlyLoggedIn = $(".header__signin").length === 0;
 
-    if (currentlyLoggedIn !== window.isLoggedIn)
+    if (currentlyLoggedIn !== previousLoginStatus) {
       window.isLoggedIn = currentlyLoggedIn;
+      previousLoginStatus = currentlyLoggedIn;
+
+      $("#mobileboxes").remove();
+      mobileBoxes();
+    }
   }, 1000);
 
   // Old deposit & withdraw links
