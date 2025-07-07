@@ -3169,17 +3169,21 @@ ${
 
   @media screen and (min-width: 1400px) {
     #floating-payment {
-      margin-top: 102px;
+      margin-top: 124px;
     }
   }
 
   @media screen and (min-width: 1200px) {
     #floating-payment {
-      margin-top: 84px;
+      margin-top: 92px;
     }
   }
 
   @media screen and (max-width: 1200px) {
+    #floating-payment {
+      margin-top: 84px;
+    }
+
     .payment-type {
       width: 196px !important;
       height: 196px !important;
