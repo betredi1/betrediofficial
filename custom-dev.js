@@ -8,18 +8,13 @@
 
   var language = window.location.pathname.split("/")[1];
 
-  window.isLoggedIn = $(".header__signin").length === 0;
-  let previousLoginStatus = window.isLoggedIn;
+  var isLoggedIn = false;
 
   setInterval(() => {
     const currentlyLoggedIn = $(".header__signin").length === 0;
 
-    if (currentlyLoggedIn !== previousLoginStatus) {
-      window.isLoggedIn = currentlyLoggedIn;
-      previousLoginStatus = currentlyLoggedIn;
-
-      $("#mobileboxes").remove();
-      mobileBoxes();
+    if (currentlyLoggedIn !== isLoggedIn) {
+      isLoggedIn = currentlyLoggedIn;
     }
   }, 1000);
 
@@ -2209,7 +2204,7 @@
       insertCustomMainSlider();
       setTimeout(initCustomSlider, 500);
 
-      window.isLoggedIn = $(".header__signin").length > 0 ? false : true;
+      isLoggedIn = $(".header__signin").length > 0 ? false : true;
       language = window.location.pathname.split("/")[1];
 
       const isHomePage = isHomePageCheck();
@@ -3147,6 +3142,45 @@ ${
     background: #000 !important;
   }
 
+  .payment-type {
+    width: 256px;
+    height: 256px;
+  }
+
+  .payment-type#payment-type-1 {
+    animation: floatY1 2.75s ease-in-out infinite alternate;
+    animation-delay: 0s;
+  }
+
+  .payment-type#payment-type-2 {
+    animation: floatY2 2.75s ease-in-out infinite alternate;
+    animation-delay: 0.64s;
+  }
+
+  .payment-type#payment-type-3 {
+    animation: floatY3 2.75s ease-in-out infinite alternate;
+    animation-delay: 0.96s;
+  }
+
+  .payment-type#payment-type-4 {
+    animation: floatY4 2.75s ease-in-out infinite alternate;
+    animation-delay: 1.24s;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .payment-type {
+      width: 196px !important;
+      height: 196px !important;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .payment-type {
+      width: 128px !important;
+      height: 128px !important;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     #game-chooser-wrapper {
       width: 92% !important;
@@ -3184,6 +3218,47 @@ ${
 
     #main-slider .swiper-slide a {
       height: 100% !important;
+    }
+
+    .payment-type {
+      width: 96px !important;
+      height: 96px !important;
+    }
+  }
+
+  @keyframes floatY1 {
+    from {
+      transform: translateX(0%) translateY(0);
+    }
+    to {
+      transform: translateX(0%) translateY(-32px);
+    }
+  }
+
+  @keyframes floatY2 {
+    from {
+      transform: translateX(-45%) translateY(0);
+    }
+    to {
+      transform: translateX(-45%) translateY(-32px);
+    }
+  }
+
+  @keyframes floatY3 {
+    from {
+      transform: translateX(-90%) translateY(0);
+    }
+    to {
+      transform: translateX(-90%) translateY(-32px);
+    }
+  }
+
+  @keyframes floatY4 {
+    from {
+      transform: translateX(-135%) translateY(0);
+    }
+    to {
+      transform: translateX(-135%) translateY(-32px);
     }
   }
       `;
@@ -3452,7 +3527,7 @@ ${
     function mobileBoxes() {
       if ($("#mobileboxes").length > 0) return $("#mobileboxes").show();
 
-      const href = !window.isLoggedIn
+      const href = !isLoggedIn
         ? `"https://betredi119.com/${language}/?modal=login"`
         : `"https://betredi119.com/${language}/payments/deposit"`;
 
@@ -3763,6 +3838,31 @@ ${
          style="display: block; width: 100%; margin-bottom: 10px; border: 2px solid #9b000e; border-radius: 10px; max-width: 100% !important;" />
     </a>
     <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/tg_promo_desc.webp" alt="Kripto Bilgilendirme" style="display: block; width: 100%;" />
+  </div>
+  <div class="container" style="position: relative">
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        margin-top: -5%;
+          "
+      >
+        <img id="payment-type-1" class="payment-type" src="https://betredi1.github.io/betrediofficial/images/payments/tether.png" />
+        <img id="payment-type-2" class="payment-type" src="https://betredi1.github.io/betrediofficial/images/payments/eth.png" />
+        <img id="payment-type-3" class="payment-type" src="https://betredi1.github.io/betrediofficial/images/payments/btc.png" />
+        <img id="payment-type-4" class="payment-type" src="https://betredi1.github.io/betrediofficial/images/payments/try.png" />
+    </div>
+    <img
+      src="https://betredi1.github.io/betrediofficial/images/payments_bg.png"
+      style="
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        border: 3px solid #9b000e !important;
+      "
+    />
   </div>
 </div>
 `;
