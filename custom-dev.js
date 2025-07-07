@@ -1627,6 +1627,16 @@
             window.location.href = `https://betredi119.com/${language}/payments/deposit`;
           });
 
+          $('a[href="/en/?modal=wallet"]').on("click", function (e) {
+            e.preventDefault();
+            window.location.href = `https://betredi119.com/${language}/payments/deposit`;
+          });
+
+          $("#floating-payment").on("click", function (e) {
+            // e.preventDefault();
+            window.location.href = `https://betredi119.com/${language}/promotion/1000000tl-cekim-imkani`;
+          });
+
           $(document).on("click", ".settings__btn", function (e) {
             e.preventDefault();
 
@@ -3863,7 +3873,7 @@ ${
     </a>
     <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/tg_promo_desc.webp" alt="Kripto Bilgilendirme" style="display: block; width: 100%;" />
   </div>
-  <div class="container" id="floating-payment" style="position: relative;">
+  <div class="container" id="floating-payment" style="position: relative; cursor: pointer;">
     <div
       style="
         display: flex;
