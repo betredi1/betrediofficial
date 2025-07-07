@@ -3167,15 +3167,15 @@ ${
     animation-delay: 1.24s;
   }
 
-  @media screen and (min-width: 1400px) {
-    #floating-payment {
-      margin-top: 124px;
-    }
-  }
-
   @media screen and (min-width: 1200px) {
     #floating-payment {
       margin-top: 92px;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    #floating-payment {
+      margin-top: 124px;
     }
   }
 
