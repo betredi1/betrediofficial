@@ -3855,7 +3855,7 @@ ${
         <img id="payment-type-4" class="payment-type" src="https://betredi1.github.io/betrediofficial/images/payments/try.png" />
     </div>
     <img
-      src="https://betredi1.github.io/betrediofficial/images/payments_bg.png"
+      src="https://betredi1.github.io/betrediofficial/images/payments/payments_bg.png"
       style="
         width: 100%;
         height: 100%;
