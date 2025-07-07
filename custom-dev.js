@@ -3143,8 +3143,8 @@ ${
   }
 
   .payment-type {
-    width: 256px;
-    height: 256px;
+    width: 224px;
+    height: 224px;
   }
 
   .payment-type#payment-type-1 {
@@ -3167,6 +3167,18 @@ ${
     animation-delay: 1.24s;
   }
 
+  @media screen and (min-width: 1400px) {
+    #floating-payment {
+      margin-top: 102px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    #floating-payment {
+      margin-top: 84px;
+    }
+  }
+
   @media screen and (max-width: 1200px) {
     .payment-type {
       width: 196px !important;
@@ -3175,9 +3187,13 @@ ${
   }
 
   @media screen and (max-width: 992px) {
+    #floating-payment {
+      margin-top: 68px;
+    }
+  
     .payment-type {
-      width: 128px !important;
-      height: 128px !important;
+      width: 164px !important;
+      height: 164px !important;
     }
   }
 
@@ -3220,9 +3236,13 @@ ${
       height: 100% !important;
     }
 
+    #floating-payment {
+      margin-top: 46px;
+    }
+
     .payment-type {
-      width: 96px !important;
-      height: 96px !important;
+      width: 90px !important;
+      height: 90px !important;
     }
   }
 
@@ -3839,7 +3859,7 @@ ${
     </a>
     <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/tg_promo_desc.webp" alt="Kripto Bilgilendirme" style="display: block; width: 100%;" />
   </div>
-  <div class="container" style="position: relative">
+  <div class="container" id="floating-payment" style="position: relative;">
     <div
       style="
         display: flex;
