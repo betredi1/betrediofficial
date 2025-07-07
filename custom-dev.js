@@ -8,14 +8,13 @@
 
   var language = window.location.pathname.split("/")[1];
 
-  var isLoggedIn = false;
+  window.isLoggedIn = false;
 
   setInterval(() => {
     const currentlyLoggedIn = $(".header__signin").length === 0;
 
-    if (currentlyLoggedIn !== isLoggedIn) {
-      isLoggedIn = currentlyLoggedIn;
-    }
+    if (currentlyLoggedIn !== window.isLoggedIn)
+      window.isLoggedIn = currentlyLoggedIn;
   }, 1000);
 
   // Old deposit & withdraw links
@@ -2204,7 +2203,7 @@
       insertCustomMainSlider();
       setTimeout(initCustomSlider, 500);
 
-      isLoggedIn = $(".header__signin").length > 0 ? false : true;
+      window.isLoggedIn = $(".header__signin").length > 0 ? false : true;
       language = window.location.pathname.split("/")[1];
 
       const isHomePage = isHomePageCheck();
@@ -3447,7 +3446,7 @@ ${
     function mobileBoxes() {
       if ($("#mobileboxes").length > 0) return $("#mobileboxes").show();
 
-      const href = !isLoggedIn
+      const href = !window.isLoggedIn
         ? `"https://betredi119.com/${language}/?modal=login"`
         : `"https://betredi119.com/${language}/payments/deposit"`;
 
