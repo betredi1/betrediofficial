@@ -15,6 +15,7 @@
 
     if (currentlyLoggedIn !== isLoggedIn) {
       isLoggedIn = currentlyLoggedIn;
+      alert("IsLoggedIn: ", isLoggedIn);
     }
   }, 1000);
 
