@@ -1662,15 +1662,13 @@
 
               // alert(`isLoggedIn: ${isLoggedIn}`);
 
-              // $("#web-header-buttons").remove();
-              // $("#mobile-header-buttons").remove();
+              $("#web-header-buttons").remove();
+              $("#mobile-header-buttons").remove();
 
               // $("#mobileboxes").remove();
 
               // headerButtons(true);
               // mobileBoxes();
-
-              initialize();
             }
           }, 1000);
         });
