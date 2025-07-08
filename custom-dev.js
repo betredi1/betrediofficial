@@ -1509,12 +1509,12 @@
               previousLoginStatus = currentlyLoggedIn;
               isLoggedIn = currentlyLoggedIn;
 
+              alert(`isLoggedIn: ${isLoggedIn}`);
+
               $("#web-header-buttons").remove();
               $("#mobile-header-buttons").remove();
 
-              if (typeof headerButtons === "function") {
-                headerButtons(true);
-              }
+              headerButtons(true);
             }
           }, 1000);
 
