@@ -4158,6 +4158,10 @@ ${
   }
 
   function headerButtons(isHomePage) {
+    const href = !isLoggedIn
+      ? `"https://betredi120.com/${language}/?modal=login"`
+      : `"https://betredi120.com/${language}/payments/deposit"`;
+
     if ($(".manual-buttons").length === 0) {
       $(".header__actions").prepend(`
 <span class="manual-buttons" id="web-header-buttons">
@@ -4184,7 +4188,7 @@ ${
       </span>
       REDI LIVE
       </a>
-       <a href="https://betredi120.com/${language}/payments/deposit" class="manual-redi-button" style="border-radius: 4px; border: none; font-size: 12px; height: 32px;">
+       <a href=${href} class="manual-redi-button" style="border-radius: 4px; border: none; font-size: 12px; height: 32px;">
       <span style="margin-right: 6px;margin-top: 0px;">
       
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
