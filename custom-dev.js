@@ -8,15 +8,6 @@
 
   var isLoggedIn = $(".header__signin").length === 0;
 
-  setInterval(() => {
-    const currentlyLoggedIn = $(".header__signin").length === 0;
-
-    if (currentlyLoggedIn !== isLoggedIn) {
-      isLoggedIn = currentlyLoggedIn;
-      alert(`Current Logged In: ${isLoggedIn}`);
-    }
-  }, 1000);
-
   // Old deposit & withdraw links
   // const depositMoneyLink = () =>
   //   !isLoggedIn ? "?modal=login" : "?modal=wallet&tab=withdraw";
@@ -1508,6 +1499,25 @@
         clearInterval(wait);
 
         $(document).ready(function () {
+          window.isLoggedIn = $(".header__signin").length === 0;
+          let previousLoginStatus = window.isLoggedIn;
+
+          setInterval(() => {
+            const currentlyLoggedIn = $(".header__signin").length === 0;
+
+            if (currentlyLoggedIn !== previousLoginStatus) {
+              previousLoginStatus = currentlyLoggedIn;
+              window.isLoggedIn = currentlyLoggedIn;
+
+              $("#web-header-buttons").remove();
+              $("#mobile-header-buttons").remove();
+
+              if (typeof headerButtons === "function") {
+                headerButtons(true);
+              }
+            }
+          }, 1000);
+
           initialize();
 
           const seoParagraph = `
