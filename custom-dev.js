@@ -6,22 +6,14 @@
 
   var language = window.location.pathname.split("/")[1];
 
-  let previousLoginStatus = $(".header__signin").length === 0;
-  let isLoggedIn = previousLoginStatus;
+  var isLoggedIn = $(".header__signin").length === 0;
 
   setInterval(() => {
     const currentlyLoggedIn = $(".header__signin").length === 0;
 
-    if (currentlyLoggedIn !== previousLoginStatus) {
-      previousLoginStatus = currentlyLoggedIn;
+    if (currentlyLoggedIn !== isLoggedIn) {
       isLoggedIn = currentlyLoggedIn;
-
-      alert(`Changed login status. Is logged in: ${isLoggedIn}`);
-
-      $("#web-header-buttons").remove();
-      $("#mobile-header-buttons").remove();
-
-      headerButtons(true);
+      alert(`Current Logged In: ${isLoggedIn}`);
     }
   }, 1000);
 
