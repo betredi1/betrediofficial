@@ -3579,9 +3579,7 @@ ${
       // if ($("#mobileboxes").length > 0) return $("#mobileboxes").show();
       // if (document.getElementById("mobileboxes")) return;
 
-      if (document.getElementById("mobileboxes")) {
-        document.getElementById("mobileboxes").remove();
-      }
+      if ($("#mobileboxes").length > 0) $("#mobileboxes").remove();
 
       const href = !isLoggedIn
         ? `"https://betredi120.com/${language}/?modal=login"`
