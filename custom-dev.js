@@ -15,7 +15,6 @@
 
     if (currentlyLoggedIn !== isLoggedIn) {
       isLoggedIn = currentlyLoggedIn;
-      alert(`IsLoggedIn: ${isLoggedIn}`);
     }
   }, 1000);
 
@@ -3881,7 +3880,6 @@ ${
         justify-content: center;
         align-items: center;
         position: absolute;
-        margin-top: -5%;
           "
       >
         <img id="payment-type-1" class="payment-type" src="https://betredi1.github.io/betrediofficial/images/payments/tether.png" />
