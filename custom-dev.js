@@ -4154,6 +4154,8 @@ ${
       ? `"https://betredi120.com/${language}/?modal=login"`
       : `"https://betredi120.com/${language}/payments/deposit"`;
 
+    alert(`HREF: ${href}`);
+
     if ($(".manual-buttons").length === 0) {
       $(".header__actions").prepend(`
 <span class="manual-buttons" id="web-header-buttons">
