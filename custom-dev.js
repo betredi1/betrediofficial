@@ -16,6 +16,8 @@
       previousLoginStatus = currentlyLoggedIn;
       isLoggedIn = currentlyLoggedIn;
 
+      alert(`Changed login status. Is logged in: ${isLoggedIn}`);
+
       $("#web-header-buttons").remove();
       $("#mobile-header-buttons").remove();
 
