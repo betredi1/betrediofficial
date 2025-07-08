@@ -6,7 +6,7 @@
 
   var language = window.location.pathname.split("/")[1];
 
-  var isLoggedIn = $(".header__signin").length === 0;
+  var isLoggedIn = false;
 
   // Old deposit & withdraw links
   // const depositMoneyLink = () =>
@@ -1499,15 +1499,15 @@
         clearInterval(wait);
 
         $(document).ready(function () {
-          window.isLoggedIn = $(".header__signin").length === 0;
-          let previousLoginStatus = window.isLoggedIn;
+          isLoggedIn = $(".header__signin").length === 0;
+          let previousLoginStatus = isLoggedIn;
 
           setInterval(() => {
             const currentlyLoggedIn = $(".header__signin").length === 0;
 
             if (currentlyLoggedIn !== previousLoginStatus) {
               previousLoginStatus = currentlyLoggedIn;
-              window.isLoggedIn = currentlyLoggedIn;
+              isLoggedIn = currentlyLoggedIn;
 
               $("#web-header-buttons").remove();
               $("#mobile-header-buttons").remove();
