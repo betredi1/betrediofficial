@@ -1499,25 +1499,6 @@
         clearInterval(wait);
 
         $(document).ready(function () {
-          isLoggedIn = $(".header__signin").length === 0;
-          let previousLoginStatus = isLoggedIn;
-
-          setInterval(() => {
-            const currentlyLoggedIn = $(".header__signin").length === 0;
-
-            if (currentlyLoggedIn !== previousLoginStatus) {
-              previousLoginStatus = currentlyLoggedIn;
-              isLoggedIn = currentlyLoggedIn;
-
-              alert(`isLoggedIn: ${isLoggedIn}`);
-
-              $("#web-header-buttons").remove();
-              $("#mobile-header-buttons").remove();
-
-              headerButtons(true);
-            }
-          }, 1000);
-
           initialize();
 
           const seoParagraph = `
@@ -1663,6 +1644,25 @@
 
             $(this).empty().append(newButton);
           });
+
+          isLoggedIn = $(".header__signin").length === 0;
+          let previousLoginStatus = isLoggedIn;
+
+          setInterval(() => {
+            const currentlyLoggedIn = $(".header__signin").length === 0;
+
+            if (currentlyLoggedIn !== previousLoginStatus) {
+              previousLoginStatus = currentlyLoggedIn;
+              isLoggedIn = currentlyLoggedIn;
+
+              alert(`isLoggedIn: ${isLoggedIn}`);
+
+              $("#web-header-buttons").remove();
+              $("#mobile-header-buttons").remove();
+
+              headerButtons(true);
+            }
+          }, 1000);
         });
       }
     }, 300);
