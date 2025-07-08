@@ -1660,15 +1660,17 @@
               previousLoginStatus = currentlyLoggedIn;
               isLoggedIn = currentlyLoggedIn;
 
-              alert(`isLoggedIn: ${isLoggedIn}`);
+              // alert(`isLoggedIn: ${isLoggedIn}`);
 
-              $("#web-header-buttons").remove();
-              $("#mobile-header-buttons").remove();
+              // $("#web-header-buttons").remove();
+              // $("#mobile-header-buttons").remove();
 
-              $("#mobileboxes").remove();
+              // $("#mobileboxes").remove();
 
-              headerButtons(true);
-              mobileBoxes();
+              // headerButtons(true);
+              // mobileBoxes();
+
+              initialize();
             }
           }, 1000);
         });
@@ -4174,8 +4176,6 @@ ${
     const href = !isLoggedIn
       ? `"https://betredi120.com/${language}/?modal=login"`
       : `"https://betredi120.com/${language}/payments/deposit"`;
-
-    alert(`HREF: ${href}`);
 
     if ($(".manual-buttons").length === 0) {
       $(".header__actions").prepend(`
