@@ -1609,17 +1609,22 @@
 
           $('a[href="/tr/?modal=wallet"]').on("click", function (e) {
             e.preventDefault();
-            window.location.href = `https://betredi120.com/${language}/payments/deposit`;
+
+            const href = !isLoggedIn
+              ? "https://betredi120.com/tr/?modal=login"
+              : "`https://betredi120.com/${language}/payments/deposit`";
+
+            window.location.href = href;
           });
 
           $('a[href="/en/?modal=wallet"]').on("click", function (e) {
             e.preventDefault();
-            window.location.href = `https://betredi120.com/${language}/payments/deposit`;
-          });
 
-          $('a[href="/en/?modal=wallet"]').on("click", function (e) {
-            e.preventDefault();
-            window.location.href = `https://betredi120.com/${language}/payments/deposit`;
+            const href = !isLoggedIn
+              ? "https://betredi120.com/tr/?modal=login"
+              : "`https://betredi120.com/${language}/payments/deposit`";
+
+            window.location.href = href;
           });
 
           $("#floating-payment").on("click", function (e) {
@@ -1660,7 +1665,10 @@
               $("#web-header-buttons").remove();
               $("#mobile-header-buttons").remove();
 
+              $("#mobileboxes").remove();
+
               headerButtons(true);
+              mobileBoxes();
             }
           }, 1000);
         });
