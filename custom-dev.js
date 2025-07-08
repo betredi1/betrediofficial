@@ -6,13 +6,20 @@
 
   var language = window.location.pathname.split("/")[1];
 
-  var isLoggedIn = false;
+  let previousLoginStatus = $(".header__signin").length === 0;
+  let isLoggedIn = previousLoginStatus;
 
   setInterval(() => {
     const currentlyLoggedIn = $(".header__signin").length === 0;
 
-    if (currentlyLoggedIn !== isLoggedIn) {
+    if (currentlyLoggedIn !== previousLoginStatus) {
+      previousLoginStatus = currentlyLoggedIn;
       isLoggedIn = currentlyLoggedIn;
+
+      $("#web-header-buttons").remove();
+      $("#mobile-header-buttons").remove();
+
+      headerButtons(true);
     }
   }, 1000);
 
@@ -4287,7 +4294,7 @@ ${
     `);
     }
 
-    if ($("#mobile-header-buttons").length === 0 && isHomePage) {
+    if ($("#mobile-header-buttons").length === 0) {
       $("header .container").append(`
     <div class="row" id="mobile-header-buttons" style="margin-bottom: 12px;">
 
