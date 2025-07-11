@@ -3927,7 +3927,7 @@ ${
         border: 3px solid #9b000e !important;
       "
     />
-    <a href="https://betredi121.com/${language}/promotion/1000000tl-cekim-imkani" style="display block; position: absolute; bottom: 2%; right: 2%; background: #630306; padding: 10px 12px; border-radius: 6px; z-index: 10;">DETAYLAR</a>
+    <a href="https://betredi121.com/${language}/promotion/1000000tl-cekim-imkani" style="display block; position: absolute; bottom: 2%; right: 2%; background: #630306; padding: 10px 12px; border-radius: 6px; z-index: 10; font-family: 'Afacad', sans-serif !important;">DETAYLAR</a>
   </div>
 </div>
 `;
