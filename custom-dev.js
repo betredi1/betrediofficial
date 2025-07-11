@@ -3080,6 +3080,7 @@ ${
     grid-template-rows: repeat(2, auto) !important;
     gap: 12px !important;
     padding: 10px 0 !important;
+    bottom: 12% !important;
   }
 
   .casino-game-item-content {
@@ -3296,6 +3297,17 @@ ${
     .payment-type {
       width: 80px !important;
       height: 80px !important;
+    }
+
+    #payment-details-btn {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 4px 8px !important;
+    }
+
+    #payment-details-btn span {
+      font-size: 10px;
     }
   }
 
