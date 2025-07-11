@@ -3192,8 +3192,8 @@ ${
     }
 
     .payment-type {
-      width: 224px;
-      height: 224px;
+      width: 224px !important;
+      height: 224px !important;
     }
   }
 
