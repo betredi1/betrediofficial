@@ -1509,6 +1509,22 @@
         $(document).ready(function () {
           initialize();
 
+          $("<link>", {
+            rel: "stylesheet",
+            href: "https://fonts.googleapis.com/css2?family=Afacad&display=swap",
+          }).appendTo("head");
+
+          $("<style>")
+            .prop("type", "text/css")
+            .html(
+              `
+    body, .modal__content, .header__title, .footer__menu, .custom-font-area {
+      font-family: 'Afacad', sans-serif !important;
+    }
+  `
+            )
+            .appendTo("head");
+
           const seoParagraph = `
               <section style="visibility: hidden; height: 0; overflow: hidden;" class="seo-injector">
                 <p style="font-size:14px; line-height:1.6; margin-top:2rem;">
