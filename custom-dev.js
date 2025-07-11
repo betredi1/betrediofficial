@@ -3213,6 +3213,13 @@ ${
     }
   }
 
+  @media screen and (min-width: 1669px) {
+    .payment-type {
+      width: 256px !important;
+      height: 256px !important;
+    }
+  }
+
   @media screen and (max-width: 1200px) {
     #floating-payment {
       margin-top: 84px;
