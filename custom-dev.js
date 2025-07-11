@@ -3904,7 +3904,7 @@ ${
     </a>
     <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/tg_promo_desc.webp" alt="Kripto Bilgilendirme" style="display: block; width: 100%;" />
   </div>
-  <div class="container" id="floating-payment" style="position: relative; cursor: pointer;">
+  <div class="container" id="floating-payment" style="position: relative;">
     <div
       style="
         display: flex;
