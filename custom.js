@@ -1806,7 +1806,6 @@
         <div class="col-12">
           <h2 class="section__title">
           <img src="https://betredi1.github.io/betrediofficial/images/rocket.png" alt="extra-games" class="svg-icon" style="width: 38px !important; height: 38px !important;" />
-          <svg class="svg-icon"><use href="/static/media/sprite.d64cd5a7e72ec533d815de9e520e49b7.svg#mini-games" xlink:href="/static/media/sprite.d64cd5a7e72ec533d815de9e520e49b7.svg#mini-games"></use></svg>
           ${language === "tr" ? "MİNİ OYUNLAR" : "MINI GAMES"}
           </h2>
         </div>
