@@ -3935,7 +3935,7 @@ ${
         border: 3px solid #9b000e !important;
       "
     />
-    <a href="https://betredi121.com/${language}/promotion/1000000tl-cekim-imkani" id="payment-details-btn" style="display flex; align-items: center; justify-content: center; position: absolute; bottom: 10%; right: 7%; background: #630306; padding: 10px 14px; border-radius: 6px; z-index: 10; gap: 2px;">
+    <a href="https://betredi121.com/${language}/promotion/1000000tl-cekim-imkani" id="payment-details-btn" style="display flex !important; align-items: center !important; justify-content: center !important; position: absolute; bottom: 10%; right: 7%; background: #630306; padding: 10px 14px; border-radius: 6px; z-index: 10; gap: 2px;">
       <span style="font-family: 'Afacad', sans-serif !important; letter-spacing: 3px;">DETAYLAR</span>
       <svg width="26" height="47" viewBox="0 0 26 47" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 14px; height: 14px;">
 <path d="M2.51245 0.376953C2.11772 0.376953 1.71377 0.533008 1.41084 0.835938C0.804979 1.4418 0.804979 2.4332 1.41084 3.03906L22.1478 23.776L1.71377 44.21C1.10791 44.8158 1.10791 45.8072 1.71377 46.4131C2.31963 47.0189 3.31104 47.0189 3.91689 46.4131L25.4616 24.8775C26.0675 24.2717 26.0675 23.2803 25.4616 22.6744L3.62315 0.835938C3.31104 0.523828 2.91635 0.376953 2.51245 0.376953Z" fill="url(#paint0_linear_1237_459)"/>
