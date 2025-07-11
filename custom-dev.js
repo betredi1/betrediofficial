@@ -3904,7 +3904,6 @@ ${
     </a>
     <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/tg_promo_desc.webp" alt="Kripto Bilgilendirme" style="display: block; width: 100%;" />
   </div>
-  <a href="https://betredi121.com/${language}/promotion/1000000tl-cekim-imkani" style="display block; position: absolute; bottom: 0px; right: 0px; background: #630306;">DETAYLAR</a>
   <div class="container" id="floating-payment" style="position: relative; cursor: pointer;">
     <div
       style="
@@ -3928,6 +3927,7 @@ ${
         border: 3px solid #9b000e !important;
       "
     />
+    <a href="https://betredi121.com/${language}/promotion/1000000tl-cekim-imkani" style="display block; position: absolute; bottom: 2%; right: 2%; background: #630306; padding: 10px 12px; border-radius: 6px; z-index: 10;">DETAYLAR</a>
   </div>
 </div>
 `;
