@@ -3179,11 +3179,21 @@ ${
     #floating-payment {
       margin-top: 92px;
     }
+
+    .payment-type {
+      width: 186px !important;
+      height: 186px !important;
+    }
   }
 
   @media screen and (min-width: 1400px) {
     #floating-payment {
       margin-top: 124px;
+    }
+
+    .payment-type {
+      width: 224px;
+      height: 224px;
     }
   }
 
@@ -3253,8 +3263,8 @@ ${
     }
 
     .payment-type {
-      width: 90px !important;
-      height: 90px !important;
+      width: 80px !important;
+      height: 80px !important;
     }
   }
 
