@@ -3309,6 +3309,11 @@ ${
     #payment-details-btn span {
       font-size: 10px;
     }
+
+    #payment-details-btn svg {
+      width: 8px !important;
+      height: 8px !important;
+    }
   }
 
   @keyframes floatY1 {
