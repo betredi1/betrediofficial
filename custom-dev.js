@@ -6,9 +6,17 @@
 
   var language = window.location.pathname.split("/")[1];
 
-  var isLoggedIn = document.querySelector(".header__signin") === null;
+  var isLoggedIn = false;
 
-  // Old deposit & withdraw linkssh
+  setInterval(() => {
+    const currentlyLoggedIn = $(".header__signin").length === 0;
+
+    if (currentlyLoggedIn !== isLoggedIn) {
+      isLoggedIn = currentlyLoggedIn;
+    }
+  }, 1000);
+
+  // Old deposit & withdraw links
   // const depositMoneyLink = () =>
   //   !isLoggedIn ? "?modal=login" : "?modal=wallet&tab=withdraw";
 
@@ -1609,22 +1617,17 @@
 
           $('a[href="/tr/?modal=wallet"]').on("click", function (e) {
             e.preventDefault();
-
-            const href = !isLoggedIn
-              ? "https://betredi121.com/tr/?modal=login"
-              : "`https://betredi121.com/${language}/payments/deposit`";
-
-            window.location.href = href;
+            window.location.href = `https://betredi121.com/${language}/payments/deposit`;
           });
 
           $('a[href="/en/?modal=wallet"]').on("click", function (e) {
             e.preventDefault();
+            window.location.href = `https://betredi121.com/${language}/payments/deposit`;
+          });
 
-            const href = !isLoggedIn
-              ? "https://betredi121.com/tr/?modal=login"
-              : "`https://betredi121.com/${language}/payments/deposit`";
-
-            window.location.href = href;
+          $('a[href="/en/?modal=wallet"]').on("click", function (e) {
+            e.preventDefault();
+            window.location.href = `https://betredi121.com/${language}/payments/deposit`;
           });
 
           $("#floating-payment").on("click", function (e) {
@@ -1649,28 +1652,6 @@
 
             $(this).empty().append(newButton);
           });
-
-          isLoggedIn = $(".header__signin").length === 0;
-          let previousLoginStatus = isLoggedIn;
-
-          setInterval(() => {
-            const currentlyLoggedIn = $(".header__signin").length === 0;
-
-            if (currentlyLoggedIn !== previousLoginStatus) {
-              previousLoginStatus = currentlyLoggedIn;
-              isLoggedIn = currentlyLoggedIn;
-
-              // alert(`isLoggedIn: ${isLoggedIn}`);
-
-              $("#web-header-buttons").remove();
-              $("#mobile-header-buttons").remove();
-
-              // $("#mobileboxes").remove();
-
-              // headerButtons(true);
-              // mobileBoxes();
-            }
-          }, 1000);
         });
       }
     }, 300);
@@ -3576,10 +3557,7 @@ ${
     }
 
     function mobileBoxes() {
-      // if ($("#mobileboxes").length > 0) return $("#mobileboxes").show();
-      // if (document.getElementById("mobileboxes")) return;
-
-      if ($("#mobileboxes").length > 0) $("#mobileboxes").remove();
+      if ($("#mobileboxes").length > 0) return $("#mobileboxes").show();
 
       const href = !isLoggedIn
         ? `"https://betredi121.com/${language}/?modal=login"`
@@ -3893,6 +3871,7 @@ ${
     </a>
     <img src="https://betredi1.github.io/betrediofficial/images/tg-promo/tg_promo_desc.webp" alt="Kripto Bilgilendirme" style="display: block; width: 100%;" />
   </div>
+  <a href="https://betredi121.com/${language}/promotion/1000000tl-cekim-imkani" style="display block; position: absolute; bottom: 0px; right: 0px; background: #630306;">DETAYLAR</a>
   <div class="container" id="floating-payment" style="position: relative; cursor: pointer;">
     <div
       style="
@@ -3908,7 +3887,7 @@ ${
         <img id="payment-type-4" class="payment-type" src="https://betredi1.github.io/betrediofficial/images/payments/try.png" />
     </div>
     <img
-      src="https://betredi1.github.io/betrediofficial/images/payments/payments_bg.png"
+      src="https://betredi1.github.io/betrediofficial/images/payments/payments_bg_v2.png"
       style="
         width: 100%;
         height: 100%;
@@ -4171,10 +4150,6 @@ ${
   }
 
   function headerButtons(isHomePage) {
-    const href = !isLoggedIn
-      ? `"https://betredi121.com/${language}/?modal=login"`
-      : `"https://betredi121.com/${language}/payments/deposit"`;
-
     if ($(".manual-buttons").length === 0) {
       $(".header__actions").prepend(`
 <span class="manual-buttons" id="web-header-buttons">
@@ -4201,7 +4176,7 @@ ${
       </span>
       REDI LIVE
       </a>
-       <a href=${href} class="manual-redi-button" style="border-radius: 4px; border: none; font-size: 12px; height: 32px;">
+       <a href="https://betredi121.com/${language}/payments/deposit" class="manual-redi-button" style="border-radius: 4px; border: none; font-size: 12px; height: 32px;">
       <span style="margin-right: 6px;margin-top: 0px;">
       
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4313,7 +4288,7 @@ ${
     `);
     }
 
-    if ($("#mobile-header-buttons").length === 0) {
+    if ($("#mobile-header-buttons").length === 0 && isHomePage) {
       $("header .container").append(`
     <div class="row" id="mobile-header-buttons" style="margin-bottom: 12px;">
 
