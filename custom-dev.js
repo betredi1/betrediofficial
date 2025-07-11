@@ -3704,7 +3704,7 @@ ${
     </a>
     <a href="https://betredi122.com/${language}/trade" target="_blank" class="col-4" style="background: #040404;">
       <div class="box-icon-item">
-      <svg class="svg-icon" style="margin: 2px auto !important; width: 26px !important; height: 26px !important;"><use href="/static/media/sprite.d64cd5a7e72ec533d815de9e520e49b7.svg#chart" xlink:href="/static/media/sprite.d64cd5a7e72ec533d815de9e520e49b7.svg#chart"></use></svg>
+      <svg class="svg-icon" style="margin: 2px auto !important; width: 26px !important; height: 26px !important;"><use href="/static/media/sprite.bce01d9c40dd918c38bcbf36110f6884.svg#chart" xlink:href="/static/media/sprite.bce01d9c40dd918c38bcbf36110f6884.svg#chart"></use></svg>
         <span>${language === "tr" ? "Borsa" : "Trade"}</span>
       </div>
     </a>
