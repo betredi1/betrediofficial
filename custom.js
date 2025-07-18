@@ -1893,7 +1893,7 @@
         )
           alert(true);
         {
-          vipDiv.innerHTML = `<img id="vip-image-injected" src="https://betredi1.github.io/betrediofficial/images/vip/vip.png" style="width: 100%" />`;
+          vipDiv.innerHTML = `<img id="vip-image-injected" src="https://betredi1.github.io/betrediofficial/images/vip/vip.jpg" style="width: 100%" />`;
           clearInterval(interval);
         }
       }, 300);
