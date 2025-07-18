@@ -1901,7 +1901,11 @@
 
     function injectVipImageLoop() {
       const interval = setInterval(() => {
-        if (window.location.pathname !== "/tr/vip/") return;
+        if (
+          window.location.pathname !== "/tr/vip/" ||
+          window.location.pathname !== "/en/vip/"
+        )
+          return;
 
         const mainContent = document.querySelector("#main__content");
         const section = mainContent?.querySelector(".section");
