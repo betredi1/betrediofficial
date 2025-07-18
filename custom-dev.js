@@ -1885,15 +1885,25 @@
     function injectVipImageLoop() {
       const interval = setInterval(() => {
         const vipDiv = document.querySelector(".vip");
+        const vipImage = document.querySelector("#vip-image-injected");
+        const mainContent = document.querySelector("#main__content");
 
         if (
-          window.location.pathname === "/tr/vip/" &&
-          vipDiv &&
-          !document.querySelector("#vip-image-injected")
+          window.location.pathname !== "/tr/vip/" ||
+          window.location.pathname !== "/en/vip/"
         )
-          alert(true);
-        {
-          vipDiv.innerHTML = `<img id="vip-image-injected" src="https://betredi1.github.io/betrediofficial/images/vip/vip.png" style="width: 100%" />`;
+          return;
+
+        if (!vipDiv && mainContent) {
+          const newVipDiv = document.createElement("div");
+          newVipDiv.className = "vip";
+          newVipDiv.innerHTML = `<img id="vip-image-injected" src="https://betredi1.github.io/betrediofficial/images/vip/vip.png" style="width: 100%">`;
+          mainContent.insertBefore(newVipDiv, mainContent.firstChild);
+          clearInterval(interval);
+        }
+
+        if (vipDiv && !vipImage) {
+          vipDiv.innerHTML = `<img id="vip-image-injected" src="https://betredi1.github.io/betrediofficial/images/vip/vip.png" style="width: 100%">`;
           clearInterval(interval);
         }
       }, 300);
